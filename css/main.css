@@ -1,0 +1,71 @@
+html * {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F6F5F7;
+	position: relative;
+	height: 100%;
+}
+
+.header {
+	height: 752px;
+	position: relative;
+}
+
+.content {
+	margin: 0 auto;
+	width: 1400px;
+}
+
+.footer {
+	height: 438px;
+	background-color: black;
+	margin-top: 155px;
+}
+
+@font-face {
+	font-family: PingFangSC-Regular;
+	src: url(../font/PingFangSC-Regular.otf), url(../font/PingFang.ttc);
+	/* src: url(../font/PingFang.ttc); */
+}
+
+@font-face {
+	font-family: PingFangSC-Semibold;
+	src: url(../font/PingFang-SC-Semibold.otf);
+}
+
+@font-face {
+	font-family: DINAlternate-Bold;
+	src: url(../font/DIN-Regular.otf);
+}
+
+
+.clearboth {
+	clear: both;
+}
+
+/**
+ * 每一个栏目的整体
+ */
+div.divContent {}
+
+/**
+ * 下列属性是为了看布局效果，后期删掉
+ */
+.testTitle {
+	font-size: 30px;
+	text-align: center;
+	height: 200px;
+}
+
+.contact-button {
+	width: 54px;
+	height: 208px;
+	position: fixed;
+	margin-top: 252px;
+	right: 0;
+	z-index: 3;
+	cursor: pointer;
+}
