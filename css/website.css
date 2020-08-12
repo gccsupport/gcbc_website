@@ -66,7 +66,7 @@
 	width: 152px;
 	height: 40px;
 	font-size: 28px;
-	font-family: PingFangSC-Semibold, PingFang SC;
+	font-family: PingFangSC-Semibold;
 	font-weight: 600;
 	color: rgba(0, 0, 0, 1);
 	line-height: 40px;
@@ -77,7 +77,7 @@
 	text-align: center;
 	line-height: 20px;
 	font-size: 14px;
-	font-family: PingFangSC-Regular, PingFang SC;
+	font-family: PingFangSC-Regular;
 	font-weight: 200;
 	margin-left: 70px;
 	color: rgba(0, 0, 0, 1);
@@ -87,7 +87,7 @@
 .title4 {
 	text-align: left;
 	font-size: 16px;
-	font-family: PingFangSC-Semibold, PingFang SC;
+	font-family: PingFangSC-Semibold;
 	margin-left: 10px;
 	line-height: 4px;
 	float: left;
@@ -105,7 +105,7 @@
 	float: left;
 	margin: 18px auto auto 30px;
 	color: white;
-	font-family: PingFangSC-Semibold, PingFang SC;
+	font-family: PingFangSC-Semibold;
 	letter-spacing: 1px;
 }
 
@@ -179,7 +179,7 @@
 /* 虚线定位 */
 .posabs {
 	position: relative;
-	bottom: -55px;
+	bottom: -48px;
 	margin-left: 60px;
 	margin-right: 90px;
 }
