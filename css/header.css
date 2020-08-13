@@ -70,11 +70,11 @@
 }
 
 .header-title-options p {
-	width: 102px;
+	width: 120px;
 	height: 34px;
 	font-size: 14px;
 	font-family: PingFangSC-Semibold;
-	font-weight: 600;
+	font-weight: 500;
 	color: rgba(255, 255, 255, 1);
 	line-height: 34px;
 	margin-top: 25px;
