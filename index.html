@@ -16,6 +16,7 @@
 		<script src="./lib/js/swiper-bundle.min.js"></script>
 		<script src="./js/product.js" type="text/javascript" charset="utf-8"></script>
 		<script src="./js/block.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/header.js" type="text/javascript" charset="utf-8"></script>
 		<style type="text/css">
 			.swiper-banner img {
 				width: 100%;
@@ -47,12 +48,30 @@
 				<div class="header-title" style="width: 1000px;float: left;">
 					<img src="img/ic_logo.png" class="header-title-img-logo">
 					<div class="header-title-options">
-						<ul>
-							<li>首页</li>
-							<li>产品中心</li>
-							<li>DS孵化器</li>
-							<li>关于我们</li>
-							<li>帮助</li>
+						<ul class="header-title-ul">
+							<li class="header-title-ul-li">首页</li>
+							<li  class="header-title-ul-li"  onmouseover="showView(options_product)" onmouseout="hideView(options_product)">
+								产品中心
+								<div class="options" id="options_product">
+									<ul>
+										<li>GCIG开发框架</li>
+										<li>大中华区块链</li>
+										<li>数字身份</li>
+									</ul>
+								</div>
+							</li>
+							<li  class="header-title-ul-li" onmouseover="showView(options_incubation)" onmouseout="hideView(options_incubation)">
+								DS孵化器
+								<div class="options" id="options_incubation">
+									<ul>
+										<li>DS学院</li>
+										<li>技术孵化</li>
+										<li>办公空间</li>
+									</ul>
+								</div>
+							</li>
+							<li  class="header-title-ul-li">关于我们</li>
+							<li  class="header-title-ul-li">帮助</li>
 						</ul>
 						<img src="./img/ic_search.png" class="header-title-img-search">
 						<p>简体中文 ></p>

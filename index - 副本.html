@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>大中华区块链官网</title>
+		<link rel="stylesheet" type="text/css" href="css/website.css" />
+		<link rel="stylesheet" type="text/css" href="css/foot.css" />
+
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./css/header.css" />
+		<link rel="stylesheet" type="text/css" href="./css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="./css/dynamic.css" />
+		<link rel="stylesheet" type="text/css" href="./css/product.css" />
+		<link rel="stylesheet" type="text/css" href="./css/block.css" />
+		<link rel="stylesheet" type="text/css" href="./lib/css/swiper-bundle.min.css" />
+		<script src="./lib/js/swiper-bundle.min.js"></script>
+		<script src="./js/product.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/block.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/header.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.swiper-banner img {
+				width: 100%;
+				height: 100%;
+				border-radius: 0;
+			}
+
+			.swiper-pagination {
+				margin-bottom: 107px;
+			}
+		</style>
+	</head>
+
+	<body bgcolor="#F6F5F7">
+
+		<img src="./img/ic_contact.png" class="contact-button">
+
+		<div class="header">
+			<div class="swiper-banner">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"> <img src="img/banner1.png"></div>
+					<div class="swiper-slide"> <img src="img/banner2.png"></div>
+					<div class="swiper-slide"> <img src="img/banner3.png"></div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="header_main">
+				<div class="header-title" style="width: 1000px;float: left;">
+					<img src="img/ic_logo.png" class="header-title-img-logo">
+					<div class="header-title-options">
+						<ul class="header-title-ul">
+							<li class="header-title-ul-li">首页</li>
+							<li  class="header-title-ul-li"  onmouseover="showView(options_product)" onmouseout="hideView(options_product)">
+								产品中心
+								<div class="options" id="options_product">
+									<ul>
+										<li>GCIG开发框架</li>
+										<li>大中华区块链</li>
+										<li>数字身份</li>
+									</ul>
+								</div>
+							</li>
+							<li  class="header-title-ul-li" onmouseover="showView(options_incubation)" onmouseout="hideView(options_incubation)">
+								DS孵化器
+								<div class="options" id="options_incubation">
+									<ul>
+										<li>DS学院</li>
+										<li>技术孵化</li>
+										<li>办公空间</li>
+									</ul>
+								</div>
+							</li>
+							<li  class="header-title-ul-li">关于我们</li>
+							<li  class="header-title-ul-li">帮助</li>
+						</ul>
+						<img src="./img/ic_search.png" class="header-title-img-search">
+						<p>简体中文 ></p>
+					</div>
+				</div>
+				<div class="header-bottom">
+					<div class="header-bottom-ad_box">
+						<div class="header-bottom-ad">
+							<img src="./img/ic_ad.png">
+							<p>只需十分钟带你了解大中华区块链科技最新资讯</p>
+						</div>
+					</div>
+					<div class="header-bottom-attention">
+						<img src="./img/icon_wechat.png">
+						<img src="./img/icon_douyin.png">
+					</div>
+				</div>
+				<div id="div_publish" class="attention">
+					<img src="img/ic_publish.png">
+					<p>大中华区块链公众号</p>
+				</div>
+				<div id="div_douyin" class="attention">
+					<img src="img/ic_publish.png">
+					<p>大中华区块链抖音号</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- 内容区域 -->
+		<div class="content">
+			<!-- 区块链实时动态 -->
+			<div id="dynamic_main">
+				<h1 id="dynamic_title">区块链数据动态</h1>
+				<div style="display: flex; margin-top: 60px;">
+					<div class="dynamicItemContent">
+						<p class="dynamicNumber">3,3242,5433</p>
+						<p class="dynamicName">用户数</p>
+					</div>
+					<p class="ellipse"></p>
+					<p class="splitLine"></p>
+					<div class="dynamicItemContent">
+						<p class="dynamicNumber">7,5567,2323</p>
+						<p class="dynamicName">区块高度</p>
+					</div>
+					<p class="splitLine"></p>
+					<div class="dynamicItemContent">
+						<p class="dynamicNumber">245 <kdd style="font-size: 18px;">笔/秒</kdd>
+						</p>
+						<p class="dynamicName">历史并发峰值</p>
+					</div>
+					<p class="splitLine"></p>
+					<div class="dynamicItemContent" style="border-right: 0px;">
+						<p class="dynamicNumber">2,4534,2432</p>
+						<p class="dynamicName">交易笔数</p>
+					</div>
+				</div>
+			</div>
+			<!-- 产品中心 -->
+			<div id="product_main">
+				<!-- 标题 -->
+				<div id="product_div_title">
+					<img id="product_icon" src="./img/icon_product.png" />
+					<div>
+						<h1>产品中心</h1>
+						<p>PRODUCT CENTER</p>
+					</div>
+				</div>
+				<div id="product_navigation">
+					<img src="img/ic_btn_left.png" class="btn_left">
+					<img src="img/ic_btn_right.png" class="btn_right">
+				</div>
+				<div class="swiper-container" style="overflow: visible;">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="./img/product_0.png">
+							<h1>超级节点技术</h1>
+							<p>利用超级计算机和分布式架构<br />
+								具备计算力和储存力<br />
+								对外呈现为节点，内部为分布式网络</p>
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/product_1.png">
+							<h1>链内并行技术</h1>
+							<p>事务能并行处理的核心技术<br />
+								能够充分利用多核和多机的计算资源</p>
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/product_2.png">
+							<h1>一体化智能合约</h1>
+							<p>智能合约和核心架构分离技术<br />
+								具备合约生命周期管理、预执行等特色<br />
+								合约语言：C++、Go、Solidity等</p>
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/product_3.png">
+							<h1>立体网络技术</h1>
+							<p>基于平行链、侧链、链内 DAG 并行技术的逻辑处理<br />
+								单链：8.7万TPS</p>
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/product_4.png">
+							<h1>账号权限系统</h1>
+							<p>去中心化的账号权限系统<br />
+								可扩展的权限模型，支持多种权限模型配置</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 大中华区块链 -->
+			<div id="block_main">
+				<!-- 标题 -->
+				<div class="block_title">
+					<img src="./img/icon_dzh_block.png">
+					<p>大中华区块链科技致力于推动区块链技术与实体经济深度融合，探索数字经济创新模式，联动纵横产业链实现供需对接，服务实体经济转型升级。全力培育行业领军企业和产业生态，开展区块链应用的概念验证、试验平台、先导应用示范。</p>
+				</div>
+				<div class="block-video">
+					<video poster="./img/ic_video_post.png" onmouseover="videoPlayback(this,img_play_logo,img_play_btn)" onmouseout="videoStopped(this,img_play_logo,img_play_btn)"
+					 autoplay="autoplay" loop="loop">
+						<source src="./img/block_video.mp4" type="video/mp4">
+						</source>
+						当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+					</video>
+					<img src="./img/ic_logo.png" class="block-video-img" id="img_play_logo">
+					<img src="./img/ic_video_play.png" class="block-play" id="img_play_btn">
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- ================= -->
+		<div style="width: 1400px; margin: 0 auto;">
+			<br><br>
+			<!-- DS区块链产业孵化器 -->
+			<div>
+				<div style="width: 460px; margin: 0 auto; text-align: center;">
+					<div class="imgDiv">
+						<img src="img/编组%2012.png" />
+					</div>
+					<span class="title1">DS区块链产业孵化器</span><br>
+					<span class="title2" style="letter-spacing: 2px; font-size: 20px; margin-left: 74px; line-height: 30px; ">DS
+						Biockchain Incuba</span>
+				</div>
+			</div>
+
+			<!-- 伸缩图 -->
+			<div class="flex-container">
+				<div class="flex-item active" id="move1" onmouseover="move_div(0);">
+					<a class="title4">DS学院 </a><br>
+					<a class="title5">DS COLLEGE</a>
+					<div class="incubaTitleDiv">
+						<div>
+							大中华区块链开源技术是大中华自主研发创新的产物，拥有链内并行技术、可插拔共识机制、一体化智能合约等业内领先技术支撑，让区块链应用搭建更灵活、性能更高效、安全性更强，全面赋能区块链开发者进入开源社区
+						</div>
+					</div>
+				</div>
+
+				<div class="flex-item" id="move2" onmouseover="move_div(1);">
+					<a class="title4">技术孵化 </a><br>
+					<a class="title5">TECHNOLOGY INCUBATIO</a>
+					<div class="incubaTitleDiv">
+						<div>
+							大中华区块链开源技术是大中华自主研发创新的产物，拥有链内并行技术、可插拔共识机制、一体化智能合约等业内领先技术支撑，让区块链应用搭建更灵活、性能更高效、安全性更强，全面赋能区块链开发者进入开源社区
+						</div>
+					</div>
+				</div>
+
+				<div class="flex-item" id="move3" onmouseover="move_div(2);">
+					<a class="title4">办公空间 </a><br>
+					<a class="title5">OFFICE SPACE </a>
+					<div class="incubaTitleDiv">
+						<div>
+							大中华区块链开源技术是大中华自主研发创新的产物，拥有链内并行技术、可插拔共识机制、一体化智能合约等业内领先技术支撑，让区块链应用搭建更灵活、性能更高效、安全性更强，全面赋能区块链开发者进入开源社区
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 区块链进程 -->
+			<div style="width: 1400px; margin: 40px auto; ">
+				<div style="width: 460px;  margin: 0 auto; text-align: center;">
+					<div class="processImg">
+						<img src="img/区块链进程icon.png" ; />
+					</div>
+					<span class="title1">区块链进程</span><br>
+					<span class="title3">Blockchain process</span>
+				</div><br>
+			</div>
+
+			<!-- 时间线 -->
+			<hr class="posabs" style="border-top:1px dashed #000; height:1px" />
+			<div style="width: 1400px; margin: 0 auto; ">
+				<div style="width: 300px; float: left;">
+					<div class="processItem" style="float: left;">2018年5月21日</div>
+					<div class="cirpos" style="width:20px;height:20px;border-radius:50%;background-color: #C3C3C3;float: left;"></div>
+					<div class="processItem" style="float: left;font-size: 0.9375rem;width: 80%;margin-left: 3.75rem;">大中华与大象数据等联合发行国内首单区块链</div>
+				</div>
+
+				<div style="width: 300px; float: left;">
+					<div class="processItem" style="float: left;">2018年7月02日</div>
+					<div class="cirpos" style="width:20px;height:20px;border-radius:50%;background-color: #C3C3C3;;float: left;"></div>
+					<div class="processItem" style="float: left;font-size: 0.9375rem;width: 80%;margin-left: 3.75rem">区块链版权平台上线</div>
+				</div>
+
+				<div style="width: 300px; float: left;">
+					<div class="processItem" style="float: left;">2019年3月18日</div>
+					<div class="cirpos" style="width:20px;height:20px;border-radius:50%;background-color: #C3C3C3;;float: left;"></div>
+					<div class="processItem" style="float: left;font-size: 0.9375rem;width: 80%;margin-left: 3.75rem">与青岛仲裁委联合推出区块链司法系统</div>
+				</div>
+
+				<div style="width: 300px; float: left;">
+					<div class="processItem" style="float: left;">2019年12月02日</div>
+					<div class="cirpos" style="width:20px;height:20px;border-radius:50%;background-color: #C3C3C3;;float: left;"></div>
+					<div class="processItem" style="float: left;font-size: 0.9375rem;width: 80%;margin-left: 3.75rem">大中华区块链公司成立</div>
+				</div>
+			</div><br />
+
+			<!-- 合作伙伴 -->
+			<div style="width: 1400px; margin: 0 auto; ">
+				<div style="width: 460px;  margin: 100px auto 0px auto; text-align: center;">
+					<div class="processImg">
+						<img src="img/合作伙伴icon.png" ; />
+					</div>
+					<span class="title2">合作伙伴</span><br>
+					<span class="title3">cooperative partner</span>
+				</div>
+
+				<div class="partnerImg" style="width: 1400px;height: 260px;margin: 40px auto;">
+					<img src="img/区块链开放平台2.png" style="float: left; margin-top: 20px; margin-left: 120px;border-radius: 10px;" />
+					<img src="img/区块链开放平台4.png" style="float: left; margin-top: 20px; margin-left: 120px;border-radius: 10px;" />
+					<img src="img/区块链开放平台.png" style="float: left; margin-top: 20px; margin-left: 120px;border-radius: 10px;" />
+					<img src="img/区块链开放平台1.png" style="float: left; margin-top: 20px; margin-left: 120px;border-radius: 10px;" />
+					<img src="img/区块链开放平台3.png" style="float: left; margin-top: 20px; margin-left: 120px;border-radius: 10px;" />
+					<img src="img/区块链开放平台5.png" style="float: left; margin-top: 20px; margin-left: 120px;border-radius: 10px;" />
+				</div>
+			</div>
+		</div>
+
+
+		<div class="footer">
+			<div class="footer-main">
+				<div class="footer-div-detail">
+					<ul>
+						产品中心
+						<li style="margin-top: 26px;">GCIG开发框架</li>
+						<li>大中华区块链公章</li>
+						<li>...</li>
+					</ul>
+					<ul>
+						DS孵化器
+						<li style="margin-top: 26px;">DS学院</li>
+						<li>技术孵化</li>
+						<li>办公空间</li>
+					</ul>
+					<ul>
+						关于我们
+						<li style="margin-top: 26px;">公司介绍</li>
+						<li>招贤纳队</li>
+						<li>企业新闻</li>
+						<li>联系我们</li>
+					</ul>
+					<p class="footer-line"></p>
+					<div class="footer-attention">
+						<img src="img/ic_publish.png">
+						<p>大中华区块链公众号</p>
+					</div>
+					<div class="footer-attention" style="margin-left: 54px;">
+						<img src="img/ic_douyin.png">
+						<p>大中华区块链抖音号</p>
+					</div>
+				</div>
+				<p class="footer-horizontal-line"></p>
+				<div class="footer-number-main">
+					<div class="footer-number">
+						<p>京公网安备 1100002000xxx号</p>
+						<h1 class="footer_bottom_ver_line"></h1>
+						<p>深圳ICP证xxxxx号</p>
+						<h1 class="footer_bottom_ver_line"></h1>
+						<p>京网信备 1101081939087937xxxx号</p>
+					</div>
+					<p style="margin: 16px auto 17px auto;">使用百度前必读@2020 Baidu</p>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				function move_div(id) {
+					var items = document.getElementsByClassName('flex-item');
+					for (var i = 0; i < items.length; i++) {
+						items[i].className = 'flex-item';
+						// items[i].style.height = 0;
+					}
+					items[id].className = 'flex-item active'
+				}
+
+				var swiper = new Swiper('.swiper-container', {
+					slidesPerView: 4,
+					spaceBetween: 40,
+					navigation: {
+						nextEl: '.btn_right',
+						prevEl: '.btn_left',
+					},
+				});
+
+				var swiperBanner = new Swiper('.swiper-banner', {
+					autoplay: {
+						delay: 1000,
+						stopOnLastSlide: false,
+						disableOnInteraction: true,
+					},
+					pagination: {
+						el: '.swiper-pagination',
+					},
+				});
+			</script>
+	</body>
+</html>
+
+<!-- <html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+		<meta name="Robots" content="NOINDEX " />
+	</head>
+	<body></body>
+	<script type="text/javascript">
+		var gearPage = document.getElementById('GearPage');
+		if (null != gearPage) {
+			gearPage.parentNode.removeChild(gearPage);
+			document.title = "\u9519\u8BEF";
+		}
+	</script>
+</html>
+ -->
