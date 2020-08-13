@@ -16,21 +16,26 @@
 .header-title-img-logo {
 	width: 170px;
 	height: 46px;
-	margin-left: 282px;
-	margin-top: 27px;
+	margin-left: 280px;
+	margin-top: 16px;
 }
 
 .header-title ul {
-	margin: auto;
+	/* margin: 0 auto; */
+	width:630px;
+	overflow:hidden; 
+	height: 50px;
+	overflow: hidden;
+	margin:30px 10px 0 480px; 
 }
 
 .header-title-options {
 	display: flex;
-	margin-left: 500px;
+	/* margin-left: 500px; */
 }
 
 .header-title ul li {
-	list-style: none;
+/* 	list-style: none;
 	float: left;
 	height: 24px;
 	font-size: 18px;
@@ -39,7 +44,15 @@
 	color: rgba(255, 255, 255, 1);
 	line-height: 24px;
 	margin-left: 42px;
-	cursor: pointer;
+	cursor: pointer; */
+	font-family: PingFangSC-Regular;
+	width:120px; 
+	height:40px;
+	line-height:24px;
+	text-align:center; 
+	float:left; 
+	color: rgba(255, 255, 255, 1);
+	font-size:20px
 }
 
 
@@ -50,9 +63,8 @@
 .header-title-img-search {
 	width: 34px;
 	height: 34px;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: 30px;
+	margin-top: 1.5625rem;
+	/* margin-bottom: auto; */
 }
 
 .header-title-options p {
@@ -63,13 +75,13 @@
 	font-weight: 600;
 	color: rgba(255, 255, 255, 1);
 	line-height: 34px;
-	margin-top: auto;
+	margin-top: 25px;
 	margin-bottom: auto;
-	margin-left: 24px;
-	inline-size: auto;
+	margin-left: 20px;
+	inline-size: 72px;
 	
-	padding-left: 17px;
-	padding-right: 17px;
+	padding-left: 28px;
+	padding-right: 20px;
 	border: white solid 1px;
 	border-radius: 17px;
 }
