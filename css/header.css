@@ -2,6 +2,7 @@
 
 .swiper-banner {
 	overflow: hidden;
+	height: 100%;
 }
 
 .header-title {
@@ -25,7 +26,6 @@
 	width:630px;
 	overflow:hidden; 
 	height: 50px;
-	overflow: hidden;
 	margin:30px 10px 0 480px; 
 }
 
@@ -98,8 +98,12 @@
 	display: flex;
 }
 
+.header-bottom-ad_box{
+	width: 50%;
+}
+
 .header-bottom-ad {
-	margin-left: 282px;
+	margin-left: 10%;
 	display: flex;
 	align-items: center;
 }
@@ -123,38 +127,15 @@
 }
 
 .header-bottom-attention {
-	margin-left: 782px;
+	dispaly: inline-block;
+	text-align: right;
+	width: 40%;
 	margin-top: auto;
+	margin-right: 10%;
 	margin-bottom: auto;
 }
 
 .header-bottom-attention img{
 	width: 32px;
-	width: 32px;
 	margin-left: 20px;
-}
-
-
-.swiper-container{
-
-width: 100%;
-
-height: 150px;
-
-}
-
-.swiper-slide{
-
-    width: 100%;
-
-    height: 150px;
-
-}
-
-.swiper-slide img{
-
-    width: 100%;
-
-    height: 100%;
-
 }
