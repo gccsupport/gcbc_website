@@ -26,8 +26,7 @@
 	width:630px;
 	overflow:hidden; 
 	height: 50px;
-	overflow: hidden;
-	margin:30px 10px 0 480px; 
+	margin:30px 10px 0px 480px; 
 }
 
 .header-title-options {
@@ -36,17 +35,6 @@
 }
 
 .header-title ul li {
-/* 	list-style: none;
-	float: left;
-	height: 24px;
-	font-size: 18px;
-	font-family: PingFangSC-Regular;
-	font-weight: 400;
-	color: rgba(255, 255, 255, 1);
-	line-height: 24px;
-	margin-left: 42px;
-	cursor: pointer; */
-	
 	list-style: none;
 	font-family: PingFangSC-Regular;
 	width:120px; 
@@ -71,18 +59,17 @@
 }
 
 .header-title-options p {
-	width: 102px;
+	width: 140px;
 	height: 34px;
 	font-size: 14px;
 	font-family: PingFangSC-Semibold;
-	font-weight: 600;
+	font-weight: 500;
 	color: rgba(255, 255, 255, 1);
 	line-height: 34px;
 	margin-top: 25px;
 	margin-bottom: auto;
 	margin-left: 20px;
 	inline-size: 72px;
-	
 	padding-left: 28px;
 	padding-right: 20px;
 	border: white solid 1px;
