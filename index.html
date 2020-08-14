@@ -49,10 +49,13 @@
 					<img src="img/ic_logo.png" class="header-title-img-logo">
 					<div class="header-title-options">
 						<ul class="header-title-ul">
-							<li class="header-title-ul-li">首页</li>
-							<li  class="header-title-ul-li"  onmouseover="showView(options_product)" onmouseout="hideView(options_product)">
+							<li class="header-title-ul-li">
+								首页</li>
+							<li class="header-title-ul-li" onmouseover="showView(options_product)" onmouseout="hideView(options_product)">
 								产品中心
-								<div class="options" id="options_product">
+								<div class="options" id="options_product" >
+									<div class="triangle">
+									</div>
 									<ul>
 										<li>GCIG开发框架</li>
 										<li>大中华区块链</li>
@@ -60,9 +63,11 @@
 									</ul>
 								</div>
 							</li>
-							<li  class="header-title-ul-li" onmouseover="showView(options_incubation)" onmouseout="hideView(options_incubation)">
+							<li class="header-title-ul-li" onmouseover="showView(options_incubation)" onmouseout="hideView(options_incubation)">
 								DS孵化器
 								<div class="options" id="options_incubation">
+									<div class="triangle">
+									</div>
 									<ul>
 										<li>DS学院</li>
 										<li>技术孵化</li>
@@ -70,8 +75,8 @@
 									</ul>
 								</div>
 							</li>
-							<li  class="header-title-ul-li">关于我们</li>
-							<li  class="header-title-ul-li">帮助</li>
+							<li class="header-title-ul-li">关于我们</li>
+							<li class="header-title-ul-li">帮助</li>
 						</ul>
 						<img src="./img/ic_search.png" class="header-title-img-search">
 						<p>简体中文 ></p>
@@ -79,11 +84,11 @@
 				</div>
 				<div class="header-bottom">
 					<div class="header-bottom-ad_box">
-					<div class="header-bottom-ad">
-						<img src="./img/ic_ad.png">
-						<p>只需十分钟带你了解大中华区块链科技最新资讯</p>
+						<div class="header-bottom-ad">
+							<img src="./img/ic_ad.png">
+							<p>只需十分钟带你了解大中华区块链科技最新资讯</p>
+						</div>
 					</div>
-				</div>
 					<div class="header-bottom-attention">
 						<img src="./img/icon_wechat.png">
 						<img src="./img/icon_douyin.png">
@@ -91,7 +96,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- 内容区域 -->
 		<div class="content">
 			<!-- 区块链实时动态 -->
@@ -376,7 +381,7 @@
 					pagination: {
 						el: '.swiper-pagination',
 					},
-					autoplayDisableOnInteraction : false,
+					autoplayDisableOnInteraction: false,
 				});
 			</script>
 	</body>
