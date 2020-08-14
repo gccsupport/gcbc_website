@@ -1,7 +1,13 @@
-function showView(view){
-	view.style.display = "block";
+function showView() {
+	var length = arguments.length;
+	for (var i = 0; i < length; i++) {
+		arguments[i].style.display = "block";
+	}
 }
 
-function hideView(view){
-	view.style.display = "none";
+function hideView() {
+	var length = arguments.length;
+	for (var i = 0; i < length; i++) {
+		arguments[i].style.display = "none";
+	}
 }

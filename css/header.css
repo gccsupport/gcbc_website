@@ -21,11 +21,11 @@
 
 .header-title-ul {
 	/* margin: 0 auto; */
-	width: 630px;
+	width: 680px;
 	overflow: hidden;
 	height: auto;
 	overflow: hidden;
-	margin: 30px 10px 0 480px;
+	margin: 30px 10px 0 400px;
 }
 
 .header-title-options {
@@ -35,6 +35,7 @@
 .header-title-ul-li {
 	list-style: none;
 	font-family: PingFangSC-Regular;
+	width: 90px;
 	height: 40px;
 	line-height: 24px;
 	text-align: center;
@@ -45,11 +46,13 @@
 	cursor: pointer;
 }
 
-.header-title-ul-li-line{
-	width:80px;
-	height:4px;
-	background:rgba(35,183,255,1);
+.header-title-ul-li-line {
+	width: 80px;
+	height: 4px;
+	background: rgba(35, 183, 255, 1);
 	position: absolute;
+	top: 0;
+	display: none;
 }
 
 .options {
