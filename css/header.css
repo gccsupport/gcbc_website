@@ -53,6 +53,7 @@
 	position: absolute;
 	top: 0;
 	display: none;
+	margin-left: 5px;
 }
 
 .options {
@@ -117,6 +118,12 @@
 	padding-right: 20px;
 	border: white solid 1px;
 	border-radius: 17px;
+	
+	transition:height 2s;
+}
+
+.header-title-options p:hover {
+	height: 84px;
 }
 
 
