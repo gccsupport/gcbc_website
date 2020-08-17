@@ -98,6 +98,7 @@
 	width: 34px;
 	height: 34px;
 	margin-top: 1.5625rem;
+	cursor: pointer;
 	/* margin-bottom: auto; */
 }
 
@@ -118,12 +119,40 @@
 	padding-right: 20px;
 	border: white solid 1px;
 	border-radius: 17px;
-	
-	transition:height 2s;
+
+	transition: height 2s;
 }
 
-.header-title-options p:hover {
-	height: 84px;
+
+.language ul {
+	width: auto;
+	height: 34px;
+	font-size: 14px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+	line-height: 34px;
+	margin-top: 25px;
+	margin-bottom: auto;
+	margin-left: 20px;
+	inline-size: 72px;
+
+	padding-left: 28px;
+	padding-right: 20px;
+	border: white solid 1px;
+	border-radius: 17px;
+
+	transition: height 0.3s;
+	overflow: hidden;
+}
+
+.language ul li {
+	list-style: none;
+	cursor: pointer;
+}
+
+.header-title-options ul:hover {
+	height: 80%;
 }
 
 

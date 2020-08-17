@@ -90,7 +90,12 @@
 							</li>
 						</ul>
 						<img src="./img/ic_search.png" class="header-title-img-search">
-						<p>简体中文></p>
+						<div class="language">
+							<ul>简体中文
+								<li>English</li>
+								<li>日本语</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="header-bottom">
@@ -384,10 +389,11 @@
 				});
 
 				var swiperBanner = new Swiper('.swiper-banner', {
+					loop: true,
 					autoplay: {
 						delay: 1000,
 						stopOnLastSlide: false,
-						disableOnInteraction: true,
+						disableOnInteraction: false,
 					},
 					pagination: {
 						el: '.swiper-pagination',
