@@ -1,0 +1,63 @@
+.code {
+	/* float: right; */
+	margin-left: 20%;
+}
+
+.weixin {
+	position: absolute;
+	float: left;
+	margin-left: 70px;
+	margin-top: 14px;
+}
+
+.code img{
+	width: 32px;
+	height: 32px;
+}
+
+.weixin::after {
+	content: url(../img/ic_publish.png);
+	position: absolute;
+	top: -200px;
+	left: -70px;
+	z-index: 5;
+	width: 120px;
+	height: 120px;
+	/* border: 2px solid #0095ba; */
+	/* border-radius: 10px; */
+	transform-origin: top left;
+	transform: scale(0);
+	opacity: 0;
+}
+
+.weixin:hover::after {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.douyin {
+	position: absolute;
+	float: left;
+	margin-left: 20px;
+	margin-top: 14px;
+}
+
+.douyin::after {
+	content: url(../img/ic_douyin.png);
+	position: absolute;
+	top: -200px;
+	left: -70px;
+	z-index: 5;
+	width: 120px;
+	height: 120px;
+	/* border: 2px solid #0095ba; */
+	/* border-radius: 10px; */
+	transform-origin: top left;
+	transform: scale(0);
+	opacity: 0;
+}
+
+.douyin:hover::after {
+	transform: scale(1);
+	opacity: 1;
+}
