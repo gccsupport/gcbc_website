@@ -32,6 +32,7 @@
 	display: flex;
 }
 
+
 .header-title-ul-li {
 	list-style: none;
 	font-family: PingFangSC-Regular;
@@ -51,9 +52,9 @@
 	height: 4px;
 	background: rgba(35, 183, 255, 1);
 	position: absolute;
-	top: 0;
-	display: none;
+	top: -4px;
 	margin-left: 5px;
+	transition: top 0.3s;
 }
 
 .options {
@@ -123,7 +124,6 @@
 	transition: height 2s;
 }
 
-
 .language ul {
 	width: auto;
 	height: 34px;
@@ -151,8 +151,22 @@
 	cursor: pointer;
 }
 
-.header-title-options ul:hover {
+.language ul:hover {
 	height: 80%;
+}
+
+.language ul:hover span {
+	transform:rotate(90deg);
+}
+
+.language ul span {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/ic_more.png);
+	background-size: 100%;
+	float: right;
+	transition: 0.3s;
+	margin-top: 10px;
 }
 
 
@@ -233,11 +247,6 @@
 	height: 100%;
 
 }
-
-
-
-
-
 
 
 .attention {
