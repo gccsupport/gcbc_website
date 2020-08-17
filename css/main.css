@@ -65,7 +65,7 @@ div.divContent {}
 	height: 208px;
 	position: fixed;
 	margin-top: 252px;
-	right: 0;
+	right: 14px;
 	z-index: 3;
 	cursor: pointer;
 }
