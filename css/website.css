@@ -78,27 +78,27 @@
 }
 
 .title2summary {
-	width:266px;
-	height:20px;
-	font-size:14px;
-	font-family:PingFangSC-Regular,PingFang SC;
-	font-weight:600;
-	color:rgba(0,0,0,1);
-	line-height:20px;
-	letter-spacing:6px;
+	width: 266px;
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 20px;
+	letter-spacing: 6px;
 	margin-left: 100px;
 }
 
 
 .title3 {
-	width:141px;
-	height:20px;
-	font-size:14px;
-	font-family:PingFangSC-Regular;
-	font-weight:600;
-	color:rgba(0,0,0,1);
-	line-height:20px;
-	letter-spacing:1px;
+	width: 141px;
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 20px;
+	letter-spacing: 1px;
 	margin-left: 105px;
 }
 
@@ -115,15 +115,15 @@
 	letter-spacing: 10px;
 }
 
-.title66{
-	width:141px;
-	height:20px;
-	font-size:14px;
-	font-family:PingFangSC-Regular;
-	font-weight:600;
-	color:rgba(0,0,0,1);
-	line-height:20px;
-	letter-spacing:1px;
+.title66 {
+	width: 141px;
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 20px;
+	letter-spacing: 1px;
 	margin-left: 110px;
 }
 
@@ -139,6 +139,20 @@
 	letter-spacing: 8px;
 }
 
+
+.title51 {
+	margin-left: 10px;
+	/* width: 100px; */
+	height: 11px;
+	font-size: 8px;
+	line-height: 4px;
+	float: left;
+	color: white;
+	font-family: PingFangSC-Semibold;
+	letter-spacing: 1px;
+	margin: 18px 0 0 -86px;
+}
+
 .title5 {
 	margin-left: 10px;
 	/* width: 100px; */
@@ -146,10 +160,10 @@
 	font-size: 8px;
 	line-height: 4px;
 	float: left;
-	margin: 18px auto auto 30px;
 	color: white;
 	font-family: PingFangSC-Semibold;
 	letter-spacing: 1px;
+	margin: 18px 0 0 -98px;
 }
 
 /* 产业孵化园 文字div */
@@ -214,9 +228,9 @@
 
 .partnerImgStyle {
 	float: left;
-    margin-top: 44px;
-    border-radius: 10px;
-    margin-left: 100px;
+	margin-top: 44px;
+	border-radius: 10px;
+	margin-left: 100px;
 }
 
 /* 进程 */
@@ -224,14 +238,14 @@
 	margin-left: 100px;
 	margin-right: 30px;
 	text-align: center;
-	width:auto;
-	height:36px;
-	font-size:25px;
-	font-family:PingFangSC-Semibold;
-	font-weight:500;
-	color:rgba(0,0,0,1);
-	line-height:36px;
-	letter-spacing:1px;
+	width: auto;
+	height: 36px;
+	font-size: 25px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	line-height: 36px;
+	letter-spacing: 1px;
 }
 
 /* 虚线定位 */
