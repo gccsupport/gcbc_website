@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	-webkit-justify-content: space-between;
-	margin: 20px auto 0;
+	margin: 40px auto 0;
 	max-width: 100%;
 }
 
@@ -11,7 +11,6 @@
 	position: relative;
 	width: 25%;
 	height: 300px;
-	/* text-align: center; */
 	background-size: cover;
 	/* 整个item 的边距 */
 	margin: 0 20px;
@@ -23,33 +22,38 @@
 	-webkit-transition: all .5s;
 }
 
-.flex-item.active{
+.flex-item.active {
 	width: 50%;
 }
 
-#move1{
+#move1 {
 	background-image: url(../img/flex1.png);
 }
-#move2{
+
+#move2 {
 	background-image: url(../img/flex2.png);
 }
-#move3{
+
+#move3 {
 	background-image: url(../img/flex3.png);
 }
-#move1.active{
+
+#move1.active {
 	background-image: url(../img/flex1_hover.png);
 }
-#move2.active{
+
+#move2.active {
 	background-image: url(../img/flex2_hover.png);
-} 
-#move3.active{
+}
+
+#move3.active {
 	background-image: url(../img/flex3_hover.png);
-} 
+}
 
 .flex-item-hover {
 	width: 50%;
-	image-rendering:auto;
-	image-rendering:pixelated;
+	image-rendering: auto;
+	image-rendering: pixelated;
 }
 
 .title1 {
@@ -81,7 +85,7 @@
 	font-weight: 200;
 	margin-left: 70px;
 	color: rgba(0, 0, 0, 1);
-	width:79px;
+	width: 79px;
 }
 
 .title4 {
@@ -93,7 +97,7 @@
 	float: left;
 	margin: 18px auto auto 30px;
 	color: white;
-	letter-spacing:8px;
+	letter-spacing: 8px;
 }
 
 .title5 {
@@ -110,7 +114,7 @@
 }
 
 /* 产业孵化园 文字div */
-.incubaTitleDiv{
+.incubaTitleDiv {
 	width: 100%;
 	height: 0;
 	overflow: hidden;
@@ -118,17 +122,19 @@
 	font-size: 16px;
 	font-weight: 400px;
 	line-height: 26px;
-	letter-spacing:4px;
+	letter-spacing: 4px;
 	transition: all .5s;
 	-webkit-transition: all .5s;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
-.incubaTitleDiv>div{
+
+.incubaTitleDiv>div {
 	padding: 50px 50px 0;
 }
-.active .incubaTitleDiv{
+
+.active .incubaTitleDiv {
 	height: calc(100% - 54px);
 	width: 100%;
 }
@@ -157,13 +163,20 @@
 
 /*  合作伙伴图片布局 */
 .partnerImg {
-	width: 326px;
-	height: 100px;
-	margin-bottom: 100px;
+	width: 1400px;
+	height: 300px;
+	margin: 30px auto;
 }
 
 .partnerImg img:hover {
 	box-shadow: #999 0px 0px 8px;
+}
+
+.partnerImgStyle {
+	float: left;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-right: 60px;
 }
 
 /* 进程 */
@@ -181,7 +194,7 @@
 	position: relative;
 	bottom: -48px;
 	margin-left: 60px;
-	margin-right: 90px;
+	margin-right: 0px;
 }
 
 .cirpos {
