@@ -61,12 +61,13 @@
 	line-height: 2.5rem;
 	font-size: 28px;
 	font-family: PingFangSC-Semibold;
-	margin-left: 70px;
+	margin-left: 100px;
 	color: rgba(0, 0, 0, 1);
+	font-weight: 600;
 }
 
 .title2 {
-	margin-left: 90px;
+	margin-left: 100px;
 	width: 152px;
 	height: 40px;
 	font-size: 28px;
@@ -77,15 +78,54 @@
 	letter-spacing: 10px;
 }
 
+.title2summary {
+	width:266px;
+	height:20px;
+	font-size:14px;
+	font-family:PingFangSC-Regular,PingFang SC;
+	font-weight:600;
+	color:rgba(0,0,0,1);
+	line-height:20px;
+	letter-spacing:6px;
+	margin-left: 100px;
+}
+
+
 .title3 {
-	text-align: center;
-	line-height: 20px;
-	font-size: 14px;
-	font-family: PingFangSC-Regular;
-	font-weight: 200;
-	margin-left: 70px;
+	width:141px;
+	height:20px;
+	font-size:14px;
+	font-family:PingFangSC-Regular;
+	font-weight:600;
+	color:rgba(0,0,0,1);
+	line-height:20px;
+	letter-spacing:1px;
+	margin-left: 105px;
+}
+
+
+.title65 {
+	margin-left: 110px;
+	width: 152px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 600;
 	color: rgba(0, 0, 0, 1);
-	width: 79px;
+	line-height: 40px;
+	letter-spacing: 10px;
+}
+
+.title66{
+	width:141px;
+	height:20px;
+	font-size:14px;
+	font-family:PingFangSC-Regular;
+	font-weight:600;
+	color:rgba(0,0,0,1);
+	line-height:20px;
+	letter-spacing:1px;
+	margin-left: 110px;
 }
 
 .title4 {
@@ -182,25 +222,30 @@
 
 /* 进程 */
 .processItem {
-	width: 100%;
-	float: left;
-	height: 30px;
-	margin-left: 30px;
+	margin-left: 100px;
 	margin-right: 30px;
 	text-align: center;
+	width:auto;
+	height:36px;
+	font-size:25px;
+	font-family:PingFangSC-Semibold;
+	font-weight:500;
+	color:rgba(0,0,0,1);
+	line-height:36px;
+	letter-spacing:1px;
 }
 
 /* 虚线定位 */
 .posabs {
 	position: relative;
-	bottom: -48px;
-	margin-left: 60px;
-	margin-right: 0px;
+	bottom: -60px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .cirpos {
 	float: left;
 	margin-left: 55%;
-	margin-top: 2%;
+	margin-top: 3.5%;
 	margin-bottom: 4%;
 }
