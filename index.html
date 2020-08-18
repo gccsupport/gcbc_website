@@ -36,6 +36,7 @@
 				border-radius: 9px;
 				background: #fff;
 				opacity: 1;
+				transition: .3s;
 			}
 			
 			.swiper-pagination-bullet-active {
@@ -229,7 +230,7 @@
 				</div>
 				<div class="block-video">
 					<video poster="./img/ic_video_post.png" onmouseover="videoPlayback(this,img_play_logo,img_play_btn)" onmouseout="videoStopped(this,img_play_logo,img_play_btn)"
-					 autoplay="autoplay" loop="loop">
+					  loop="loop" muted>
 						<source src="./img/block_video.mp4" type="video/mp4">
 						</source>
 						当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
