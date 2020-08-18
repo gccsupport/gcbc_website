@@ -169,7 +169,8 @@
 }
 
 .partnerImg img:hover {
-	box-shadow: #999 0px 0px 8px;
+	box-shadow: #D8D8D8 0px 0px 30px;
+	/* box-shadow: red; */
 }
 
 .partnerImgStyle {

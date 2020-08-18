@@ -18,8 +18,8 @@
 .weixin::after {
 	content: url(../img/ic_publish.png);
 	position: absolute;
-	top: -200px;
-	left: -70px;
+	top: -210px;
+	left: -75px;
 	z-index: 5;
 	width: 120px;
 	height: 120px;
@@ -45,8 +45,8 @@
 .douyin::after {
 	content: url(../img/ic_douyin.png);
 	position: absolute;
-	top: -200px;
-	left: -70px;
+	top: -210px;
+	left: -75px;
 	z-index: 5;
 	width: 120px;
 	height: 120px;
