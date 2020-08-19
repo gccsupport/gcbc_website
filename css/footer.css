@@ -1,7 +1,7 @@
 .footer-main {
 	width: 1400px;
 	margin: 0 auto;
-	padding: 76px 20px 0 20px;
+	padding: 76px 0 0 20px;
 }
 
 .footer-div-detail {
@@ -68,6 +68,8 @@
 	letter-spacing: 1px;
 	margin: 16px auto;
 }
+
+
 
 .footer-horizontal-line {
 	width: 1228px;

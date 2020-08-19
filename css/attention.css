@@ -1,5 +1,4 @@
 .code {
-	/* float: right; */
 	margin-left: 20%;
 }
 
@@ -23,8 +22,6 @@
 	z-index: 5;
 	width: 120px;
 	height: 120px;
-	/* border: 2px solid #0095ba; */
-	/* border-radius: 10px; */
 	transform-origin: top left;
 	transform: scale(0);
 	opacity: 0;
@@ -50,8 +47,6 @@
 	z-index: 5;
 	width: 120px;
 	height: 120px;
-	/* border: 2px solid #0095ba; */
-	/* border-radius: 10px; */
 	transform-origin: top left;
 	transform: scale(0);
 	opacity: 0;

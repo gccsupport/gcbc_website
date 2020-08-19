@@ -10,7 +10,7 @@
 	text-align: center;
 	height: 40px;
 	font-size: 28px;
-	font-family: PingFangSC-Semibold, PingFang SC;
+	font-family: PingFangSC-Semibold;
 	font-weight: 600;
 	color: rgba(0, 0, 0, 1);
 	line-height: 40px;
@@ -23,7 +23,6 @@
  */
 div.dynamicItemContent {
 	width: 100%;
-	/* border-right: 1px solid #000000; */
 }
 
 /**
