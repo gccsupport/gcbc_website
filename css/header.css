@@ -79,6 +79,12 @@
 	margin: auto;
 }
 
+.header-title-ul li:hover {
+	color: #007AFF;
+}
+
+
+
 .header-title-img-search {
 	width: 34px;
 	height: 34px;

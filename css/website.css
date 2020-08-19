@@ -14,8 +14,6 @@
 	background-size: cover;
 	/* 整个item 的边距 */
 	border-radius: 10px;
-	/* 文字的内边距 */
-	/* line-height: 200px; */
 	/* 实现顺滑的重点 */
 	transition: all .5s;
 	-webkit-transition: all .5s;
@@ -155,7 +153,6 @@
 
 .title5 {
 	margin-left: 10px;
-	/* width: 100px; */
 	height: 11px;
 	font-size: 8px;
 	line-height: 4px;
