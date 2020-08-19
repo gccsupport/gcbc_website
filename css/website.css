@@ -47,11 +47,6 @@
 	background-image: url(../img/flex3_hover.png);
 }
 
-.flex-item-hover {
-	width: 50%;
-	image-rendering: auto;
-	image-rendering: pixelated;
-}
 
 .title1 {
 	text-align: center;
@@ -63,17 +58,6 @@
 	font-weight: 600;
 }
 
-.title2 {
-	margin-left: 100px;
-	width: 152px;
-	height: 40px;
-	font-size: 28px;
-	font-family: PingFangSC-Semibold;
-	font-weight: 600;
-	color: rgba(0, 0, 0, 1);
-	line-height: 40px;
-	letter-spacing: 10px;
-}
 
 .title2summary {
 	width: 266px;
