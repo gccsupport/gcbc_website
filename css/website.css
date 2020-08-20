@@ -59,6 +59,31 @@
 }
 
 
+
+.title123 {
+	text-align: center;
+	line-height: 2.5rem;
+	font-size: 28px;
+	font-family: PingFangSC-Semibold;
+	margin-left: 124px;
+	color: rgba(0, 0, 0, 1);
+	font-weight: 600;
+	letter-spacing: 24px;
+}
+
+.title123Summary {
+	width: 141px;
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 20px;
+	letter-spacing: 5px;
+	margin-left: 105px;
+}
+
+
 .title2summary {
 	width: 266px;
 	height: 20px;
@@ -70,6 +95,9 @@
 	letter-spacing: 6px;
 	margin-left: 100px;
 }
+
+
+
 
 
 .title3 {
@@ -216,7 +244,7 @@
 
 /* 进程 */
 .processItem {
-	margin-left: 100px;
+	margin-left: 42%;
 	margin-right: 30px;
 	text-align: center;
 	width: auto;
@@ -225,7 +253,7 @@
 	font-family: PingFangSC-Semibold;
 	font-weight: 500;
 	color: rgba(0, 0, 0, 1);
-	line-height: 36px;
+	line-height: 28px;
 	letter-spacing: 1px;
 }
 
