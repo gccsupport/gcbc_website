@@ -1,0 +1,49 @@
+.common_content{
+	margin: 0 auto;
+	width: 1400px;
+}
+
+.common_title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-top: 145px;
+}
+
+.common_title .common_title_content{
+	min-width: 250px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	
+}
+
+.common_title .common_title_content img{
+	width: 52px;
+	height: 52px;
+}
+
+.common_title .common_title_content div h1{
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 40px;
+	letter-spacing: 6px;
+	margin-left: 20px;
+}
+
+.common_title .common_title_content div p{
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+	letter-spacing: 0.2px;
+}
