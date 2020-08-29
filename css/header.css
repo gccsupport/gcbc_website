@@ -44,6 +44,11 @@
 	cursor: pointer;
 }
 
+.header-title-ul-li>a {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
 .header-title-ul-li h1 {
 	width: 80px;
 	height: 4px;
@@ -77,6 +82,15 @@
 	line-height: 60px;
 	width: 130px;
 	margin: auto;
+}
+
+.options li>a {
+	color: #000;
+	text-decoration: none;
+}
+
+.options li :hover {
+	color: #007AFF;
 }
 
 .header-title-ul li:hover {
@@ -200,4 +214,3 @@
 	width: 100%;
 	height: 100%;
 }
-
