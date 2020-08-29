@@ -1,13 +1,49 @@
 .header .swiper-banner .bottom_contact_content {
-	position: absolute;
-	bottom: 31px;
-	width: 100%;
+	position: fixed;
+	bottom: 60px;
+	z-index: 10;
+	right: 50px;
 }
 
+/* .header .swiper-banner .bottom_contact_content>p {
+	background: #5F7C34;
+	border-radius: 88px 0px 0px 88px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	padding: 15px 157px 15px 86px;
+	float: right;
+	margin-left: -20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header_swiper-banner_contact {
+	width: 1100px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	flex-direction: row-reverse;
+	margin: auto;
 }
 
 .swiper-banner .header_swiper-banner_contact .ds_contact {
@@ -15,14 +51,22 @@
 	height: 52px;
 	background: #F6F5F7;
 	border-radius: 26px;
-	z-index: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-left: -75px;
 	cursor: pointer;
+	box-shadow: 0 0 60px #ccc;
 }
 
+.header .swiper-banner .bottom_contact_content :hover .ds_contact {
+	box-shadow: 0 0 20px #ccc;
+}
+
+.header .swiper-banner .bottom_contact_content :hover .ds_contact_other {
+	width: 306px;
+	opacity: 1;
+}
 
 .swiper-banner .header_swiper-banner_contact .ds_contact img {
 	width: 18px;
@@ -40,18 +84,19 @@
 }
 
 .swiper-banner .header_swiper-banner_contact .ds_contact_other {
-	width: 306px;
-	height: 53px;
+	width: 0;
+	height: 52px;
 	border-radius: 88px 0px 0px 88px;
-	z-index: 1;
 	align-items: center;
 	display: flex;
 	margin-left: -75px;
 	cursor: pointer;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.4s;
 }
 
 .swiper-banner .header_swiper-banner_contact .ds_contact_other span {
-	width: 87px;
 	height: 19px;
 	font-size: 18px;
 	font-family: PingFangSC-Regular;
