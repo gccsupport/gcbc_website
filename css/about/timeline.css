@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-*,
+/* *,
 *::before,
 *::after {
 	margin: 0 auto;
@@ -8,7 +8,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
+} */
 
 body {
 	font-size: 16px;
@@ -22,6 +22,9 @@ body {
 	padding-bottom: 50px;
 	list-style-type: none;
 	border: 1px dashed #979797;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* 中间竖线 */
@@ -32,6 +35,9 @@ body {
 	padding-bottom: 50px;
 	list-style-type: none;
 	border: 1px dashed #979797;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* 竖线上的实心圆点 */
@@ -48,6 +54,9 @@ body {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* 竖线上的空心圆点 */
@@ -63,7 +72,10 @@ body {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	z-index: 999;
+	z-index: 10;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* 每个事件的时间 */
@@ -75,6 +87,7 @@ body {
 	color: rgba(0, 0, 0, 1);
 	line-height: 30px;
 	letter-spacing: 1px;
+	
 }
 
 /* 每个事件的内容 */
@@ -85,6 +98,7 @@ body {
 	font-weight: 600;
 	color: rgba(0, 0, 0, 1);
 	line-height: 21px;
+	
 }
 
 /* 右边的背景+线 */
@@ -96,18 +110,27 @@ body {
 .timeline ul li:nth-child(odd) .content:before {
 	left: -175px;
 	border: 1px dashed #979797;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* 左边的背景+线 */
 .timeline ul li:nth-child(even) .content {
 	left: calc(-450px - 34px);
 	text-align: end;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* 左边连接内容的横线 */
 .timeline ul li:nth-child(even) .content:before {
 	right: -175px;
 	border: 1px dashed #979797;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .content * {}
@@ -135,6 +158,9 @@ body {
 	top: 0px;
 	width: 185px;
 	height: 2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
@@ -173,5 +199,8 @@ body {
 
 	.timeline ul li:nth-child(even) .content:before {
 		left: -33px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
 	}
 }
