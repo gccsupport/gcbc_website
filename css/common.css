@@ -72,17 +72,17 @@ h1.common_title_not_icon{
 
 
 
-.footer .footer-main {
+.footer-main {
 	width: 1400px;
 	margin: 0 auto;
 	padding: 76px 0 0 20px;
 }
 
-.footer .footer-main .footer-div-detail {
+.footer-main .footer-div-detail {
 	display: flex;
 }
 
-.footer .footer-main .footer-div-detail ul {
+.footer-main .footer-div-detail ul {
 	height: 30px;
 	font-size: 22px;
 	font-family: PingFangSC-Semibold;
@@ -94,7 +94,7 @@ h1.common_title_not_icon{
 }
 
 
-.footer .footer-main .footer-div-detail ul li {
+.footer-main .footer-div-detail ul li {
 	font-size: 16px;
 	font-family: PingFangSC-Regular;
 	font-weight: 400;
@@ -106,18 +106,18 @@ h1.common_title_not_icon{
 	cursor: pointer;
 }
 
-.footer .footer-main .footer-div-detail ul li:hover {
+.footer-main .footer-div-detail ul li:hover {
 	color: antiquewhite;
 }
 
-.footer .footer-main .footer-div-detail .footer-line {
+.footer-main .footer-div-detail .footer-line {
 	width: 1px;
 	height: 154px;
 	background: rgba(107, 107, 107, 1);
 	border-radius: 1px;
 }
 
-.footer .footer-main .footer-div-detail .footer-attention {
+.footer-main .footer-div-detail .footer-attention {
 	width: 161px;
 	height: 138px;
 	display: flex;
@@ -125,13 +125,13 @@ h1.common_title_not_icon{
 	margin-left: 157px;
 }
 
-.footer .footer-main .footer-div-detail .footer-attention img {
+.footer-main .footer-div-detail .footer-attention img {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
 }
 
-.footer .footer-main .footer-div-detail .footer-attention p {
+.footer-main .footer-div-detail .footer-attention p {
 	width: 161px;
 	height: 22px;
 	font-size: 16px;
@@ -145,25 +145,25 @@ h1.common_title_not_icon{
 
 
 
-.footer .footer-main .footer-horizontal-line {
+.footer-main .footer-horizontal-line {
 	width: 1228px;
 	height: 1px;
 	background: rgba(66, 66, 66, 1);
 	margin: 79px auto auto auto;
 }
 
-.footer .footer-main .footer-number-main {
+.footer-main .footer-number-main {
 	width: max-content;
 	display: flex;
 	margin: 23px auto;
 	flex-direction: column;
 }
 
-.footer .footer-main .footer-number-main .footer-number {
+.footer-main .footer-number-main .footer-number {
 	display: flex;
 }
 
-.footer .footer-main .footer-number-main p {
+.footer-main .footer-number-main p {
 	height: 25px;
 	font-size: 18px;
 	font-family: PingFangSC-Regular;
@@ -174,7 +174,7 @@ h1.common_title_not_icon{
 	margin: auto;
 }
 
-.footer .footer-main .footer-number-main .footer_bottom_ver_line {
+.footer-main .footer-number-main .footer_bottom_ver_line {
 	width: 1px;
 	height: 19px;
 	background-image: linear-gradient(#494949, #666, #494949);
