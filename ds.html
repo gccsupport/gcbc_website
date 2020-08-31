@@ -20,6 +20,7 @@
 		<script src="./lib/js/swiper-bundle.min.js"></script>
 		<script src="./js/header.js" type="text/javascript" charset="utf-8"></script>
 		<script src="./js/block.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/common.js" type="text/javascript" charset="utf-8"></script>
 		<style type="text/css">
 			.swiper-banner img {
 				width: 100%;
@@ -98,7 +99,7 @@
 				</div>
 			</div>
 			<div>
-				<div class="header-title" style=" width: 100%; overflow: visible; position: fixed; background-color:  rgba(0, 0, 0, 0.6) ; z-index: 99; ">
+				<div  id="root_header_title" class="header-title" style="height: 90px; width: 100%; overflow: visible; position: fixed; background-color:  rgba(0, 0, 0, 0.6) ; z-index: 99; ">
 					<img src="img/ic_logo.png" class="header-title-img-logo">
 					<div class="header-title-options">
 						<ul class="header-title-ul">
@@ -144,7 +145,8 @@
 						</ul>
 						<img src="./img/ic_search.png" class="header-title-img-search">
 						<div class="language">
-							<ul style="width: 80px;">简体中文
+							<ul style="width: 80px;"
+							onmouseover="languageHover(root_header_title)" onmouseout="languageHoverOut(root_header_title)">简体中文
 								<span></span>
 								<li>English</li>
 								<li>日本语</li>

@@ -9,6 +9,7 @@
 	z-index: 1;
 	display: flex;
 	float: left;
+	transition: height 0.3s;
 }
 
 .header-title-img-logo {
