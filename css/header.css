@@ -124,7 +124,6 @@
 	color: rgba(255, 255, 255, 1);
 	line-height: 34px;
 	margin-top: 25px;
-	margin-bottom: auto;
 	margin-left: 20px;
 	inline-size: 72px;
 	padding-left: 28px;
@@ -146,7 +145,7 @@
 }
 
 .language ul:hover {
-	height: 80%;
+	height: 70%;
 }
 
 .language ul:hover span {

@@ -187,12 +187,11 @@
 			</div>
 			
 			<div class="dream">
-				<!-- 标题 -->
-				<div class="common_title">
+				<div class="common_title common_title_margin_top">
 					<div class="common_title_content">
 						<img src="./img/ds/ic_dream.png" />
 						<div>
-							<h1>DS创业梦想基金</h1>
+							<h1 style="letter-spacing: 6px;">DS创业梦想基金</h1>
 							<p style="letter-spacing: 3px;">Entrepreneurial dream fund</p>
 						</div>
 					</div>
@@ -203,11 +202,11 @@
 			</div>
 
 			<!-- 空间类型 -->
-			<div class="common_title" style="margin-top: 100px;">
+			<div class="common_title common_title_margin_top">
 				<div class="common_title_content">
 					<img src="./img/spaceTypeIcon.png" />
 					<div>
-						<h1>DS空间类型</h1>
+						<h1 style="letter-spacing: 7px;">DS空间类型</h1>
 						<p style="letter-spacing: 10px;">SPACE TYPE</p>
 					</div>
 				</div>
@@ -246,11 +245,11 @@
 				</div>
 			</div>
 			<!-- 多功能会议室 -->
-			<div class="common_title">
+			<div class="common_title common_title_margin_top">
 				<div class="common_title_content">
 					<img src="./img/spaceTypeIcon.png" />
 					<div>
-						<h1>多功能会议室</h1>
+						<h1 style="letter-spacing: 8px;">多功能会议室</h1>
 						<p style="letter-spacing: 0.5px;">Multi functional meeting room</p>
 					</div>
 				</div>
@@ -289,10 +288,10 @@
 			</div>
 		</div>
 
-		<div class="common_title">
+		<div class="common_title common_title_margin_top">
 			<div class="common_title_content">
 				<div>
-					<h1>高雅活泼的活动场地</h1>
+					<h1 style="letter-spacing: 6px;">高雅活泼的活动场地</h1>
 					<p style="letter-spacing: 6px;">Elegant and lively venue</p>
 				</div>
 			</div>
@@ -378,6 +377,35 @@
 						el: '.swiper-pagination',
 					},
 				});
+				
+				var header = document.getElementById("root_header_title");
+				
+				
+				var scrollFunc = function(e) {
+					e = e || window.event;
+					if (e.wheelDelta) { //第一步：先判断浏览器IE，谷歌滑轮事件 
+						console.log(document.documentElement.scrollTop);
+						console.log(document.body.scrollTop);
+						if (document.documentElement.scrollTop >= 500) {
+							header.style.background = "rgba(0, 0, 0, 1)";
+						} else {
+							header.style.background = "rgba(0, 0, 0, 0.26)";
+						}
+					} else if (e.detail) { //Firefox滑轮事件 
+						console.log(document.documentElement.scrollTop);
+						if (document.documentElement.scrollTop >= 500) {
+							header.style.background = "rgba(0, 0, 0, 1)";
+						} else {
+							header.style.background = "rgba(0, 0, 0, 0.26)";
+						}
+					}
+				}
+				//给页面绑定滑轮滚动事件 
+				if (document.addEventListener) { //firefox 
+					document.addEventListener('DOMMouseScroll', scrollFunc, true);
+				}
+				//滚动滑轮触发scrollFunc方法 //ie 谷歌 
+				window.onmousewheel = document.onmousewheel = scrollFunc;
 			</script>
 	</body>
 </html>

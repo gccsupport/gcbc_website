@@ -1,6 +1,6 @@
 function languageHover(root) {
 	console.log("hover")
-	root.style.height = "130px";
+	root.style.height = "150px";
 }
 
 function languageHoverOut(root) {

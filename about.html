@@ -4,6 +4,8 @@
 		<meta charset="utf-8" />
 		<title>大中华区块链官网 - 关于我们</title>
 
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+
 		<link rel="stylesheet" type="text/css" href="./css/header.css" />
 		<link rel="stylesheet" type="text/css" href="./css/about/about_header.css" />
 		<link rel="stylesheet" type="text/css" href="./css/about/about_vision.css" />
@@ -44,7 +46,7 @@
 				<!-- Add Pagination -->
 				<div class="swiper-pagination" style="margin-bottom: 88px"></div>
 			</div>
-			<div class="about_header_title" id="about_title_background" >
+			<div class="about_header_title" id="about_title_background">
 				<div>
 					<img src="img/ic_logo.png" class="header-title-img-logo" />
 					<p class="about_title_summary">大中华区块链科技—数字世界基石</p>
@@ -113,12 +115,13 @@
 
 		<div class="content">
 			<div class="about_vision_title">
-				<!-- 标题 -->
-				<div id="product_div_title">
-					<img id="product_icon" src="./img/about/ic_vision.png" />
-					<div>
-						<h1 style="font-weight: 500;">我们的愿景</h1>
-						<p style="letter-spacing: 9px; width: 100%;">OUR VISION</p>
+				<div class="common_title">
+					<div class="common_title_content">
+						<img src="./img/about/ic_vision.png" />
+						<div>
+							<h1 style="letter-spacing: 6px; font-weight: 500;">我们的愿景</h1>
+							<p style="letter-spacing: 9px;">OUR VISION</p>
+						</div>
 					</div>
 				</div>
 
@@ -133,14 +136,16 @@
 			</div>
 
 			<div class="about_event">
-				<!-- 标题 -->
-				<div id="product_div_title">
-					<img id="product_icon" src="./img/about/ic_event.png" />
-					<div>
-						<h1 style="letter-spacing: 20px; font-weight: 500;">大事记</h1>
-						<p style="letter-spacing: 3px; width: 100%;">MEMORABILIA</p>
+				<div class="common_title">
+					<div class="common_title_content">
+						<img src="./img/about/ic_event.png" />
+						<div>
+							<h1 style="letter-spacing: 20px; font-weight: 500; ">大事记</h1>
+							<p style="letter-spacing: 4px;">MEMORABILIA</p>
+						</div>
 					</div>
 				</div>
+
 				<section class="timeline" style="margin-top: 50px;">
 					<div class="timelineTop"></div>
 					<ul>
@@ -245,24 +250,25 @@
 
 			<script type="text/javascript">
 				var header = document.getElementById("about_title_background");
-				
-				
+
+
 				var scrollFunc = function(e) {
 					e = e || window.event;
 					if (e.wheelDelta) { //第一步：先判断浏览器IE，谷歌滑轮事件 
-						console.log(document.documentElement.scrollTop);console.log(document.body.scrollTop);
-						if(document.documentElement.scrollTop >=500 ){
-							header.style.background="rgba(0, 0, 0, 1)";
-						}else{
-							header.style.background="rgba(0, 0, 0, 0.26)";
+						console.log(document.documentElement.scrollTop);
+						console.log(document.body.scrollTop);
+						if (document.documentElement.scrollTop >= 500) {
+							header.style.background = "rgba(0, 0, 0, 1)";
+						} else {
+							header.style.background = "rgba(0, 0, 0, 0.26)";
 						}
 					} else if (e.detail) { //Firefox滑轮事件 
-					console.log(document.documentElement.scrollTop);
-					if(document.documentElement.scrollTop >=500 ){
-						header.style.background="rgba(0, 0, 0, 1)";
-					}else{
-						header.style.background="rgba(0, 0, 0, 0.26)";
-					}
+						console.log(document.documentElement.scrollTop);
+						if (document.documentElement.scrollTop >= 500) {
+							header.style.background = "rgba(0, 0, 0, 1)";
+						} else {
+							header.style.background = "rgba(0, 0, 0, 0.26)";
+						}
 					}
 				}
 				//给页面绑定滑轮滚动事件 

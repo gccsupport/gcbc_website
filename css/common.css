@@ -1,7 +1,25 @@
+
 .common_content{
 	margin: 0 auto;
 	width: 1400px;
 }
+
+/* 没有图标的标题 */
+h1.common_title_not_icon{
+	text-align: center;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 40px;
+	letter-spacing: 4px;
+}
+
+.common_title_margin_top{
+	margin-top: 145px;
+}
+
 
 .common_title{
 	display: flex;
@@ -9,15 +27,13 @@
 	align-items: center;
 	flex-wrap: wrap;
 	text-align: center;
-	margin-top: 145px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .common_title .common_title_content{
-	min-width: 250px;
-	margin: auto;
 	display: flex;
 	align-items: center;
-	
 }
 
 .common_title .common_title_content img{
@@ -32,7 +48,6 @@
 	font-weight: 600;
 	color: rgba(0, 0, 0, 1);
 	line-height: 40px;
-	letter-spacing: 6px;
 	margin-left: 20px;
 }
 
@@ -44,6 +59,4 @@
 	color: rgba(0, 0, 0, 1);
 	line-height: 20px;
 	margin-left: 20px;
-	margin-top: 0px;
-	letter-spacing: 0.2px;
 }
