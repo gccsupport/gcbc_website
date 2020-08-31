@@ -233,16 +233,7 @@
 					<img src="./img/icon_dzh_block.png">
 					<p>大中华区块链科技致力于推动区块链技术与实体经济深度融合，探索数字经济创新模式，联动纵横产业链实现供需对接，服务实体经济转型升级。全力培育行业领军企业和产业生态，开展区块链应用的概念验证、试验平台、先导应用示范。</p>
 				</div>
-				<div class="block-video">
-					<video onmouseout="videoStopped(this,img_play_logo,img_play_btn,video_poster_img)" loop="loop" muted id="video">
-						<source src="./img/block_video.mp4" type="video/mp4">
-						</source>
-						当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
-					</video>
-
-					<img src="./img/ic_video_post.png" class="block-video-poster-img" id="video_poster_img" onmouseover="videoPlayback(this,img_play_logo,img_play_btn,video)" />
-					<img src="./img/ic_logo.png" class="block-video-img" id="img_play_logo">
-					<img src="./img/ic_video_play.png" class="block-play" id="img_play_btn">
+				<div class="block_video_content">
 				</div>
 
 			</div>
@@ -359,7 +350,8 @@
 			<div class="footer_content"></div>
 		</div>
 		<script type="text/javascript">
-			$(".footer_content").load("footer.html");
+			$(".footer_content").load("common_html/footer.html");
+			$(".block_video_content").load("common_html/video_block.html");
 
 			function move_div(id) {
 				var items = document.getElementsByClassName('flex-item');

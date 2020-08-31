@@ -35,45 +35,7 @@
 	margin: 30px 0 0 100px;
 }
 
-.block-video {
-	width: 604px;
-	height: 340px;
-	position: relative;
-}
 
-/**
- * 大中华区块链 - 右侧视频
- */
-.block-video video {
-	width: 100%;
-	height: 100%;
-	object-fit: fill;
-	outline: none;
-	border-radius: 8px;
-}
-
-.block-video-img {
-	width: 100%;
-	height: 100%;
-	border-radius: 8px;
-}
-
-.block-video-poster-img {
-	width: 100%;
-	height: 100%;
-	border-radius: 8px;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
-.block-video-img {
-	width: 160px;
-	height: 40px;
-	position: absolute;
-	bottom: 23px;
-	right: 41px;
-}
 
 .block-play {
 	width: 98px;
