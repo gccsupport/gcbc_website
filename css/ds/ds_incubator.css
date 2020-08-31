@@ -9,3 +9,21 @@
 	letter-spacing: 2px;
 	margin-top: 41px;
 }
+
+
+.ds_incubator_bottom_title{
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 2px;
+	margin: auto 26%;
+	margin-top: 58px;
+	margin-bottom: -120px;
+	width: 1000px;
+}
+
+.ds_incubator_bottom_title img{
+	/* float: left; */
+	width: 35px;
+	height: 35px;
+	margin: -10px 10px;
+}
