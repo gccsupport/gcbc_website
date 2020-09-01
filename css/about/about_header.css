@@ -39,7 +39,7 @@
 }
 
 .about_detail p:first-child {
-	width: 243px;
+	width: auto;
 	height: 70px;
 	font-size: 50px;
 	font-family: PingFangSC-Semibold, PingFang SC;
