@@ -3,20 +3,6 @@
 	margin-top: 32px;
 }
 
-/**
- * 区块链数据动态 - 标题
- */
-#dynamic_title {
-	text-align: center;
-	height: 40px;
-	font-size: 28px;
-	font-family: PingFangSC-Semibold;
-	font-weight: 600;
-	color: rgba(0, 0, 0, 1);
-	line-height: 40px;
-	letter-spacing: 4px;
-
-}
 
 /**
  * 区块链数据动态 - 每个类型的整体div

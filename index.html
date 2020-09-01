@@ -4,9 +4,9 @@
 		<meta charset="utf-8" />
 		<title>大中华区块链官网</title>
 
+		<script src="js/include.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
-		<script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
-
+		<script src="./js/common.js" type="text/javascript" charset="utf-8"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/website.css" />
 		<link rel="stylesheet" type="text/css" href="css/foot.css" />
@@ -234,8 +234,7 @@
 					<img src="./img/icon_dzh_block.png">
 					<p>大中华区块链科技致力于推动区块链技术与实体经济深度融合，探索数字经济创新模式，联动纵横产业链实现供需对接，服务实体经济转型升级。全力培育行业领军企业和产业生态，开展区块链应用的概念验证、试验平台、先导应用示范。</p>
 				</div>
-				<div class="block_video_content">
-				</div>
+				<include src="common_html/video_block.html">
 
 			</div>
 			<!-- DS区块链产业孵化器 -->
@@ -348,11 +347,9 @@
 		</div>
 
 		<div class="footer">
-			<div class="footer_content"></div>
+			<include src="common_html/footer.html"></include>
 		</div>
 		<script type="text/javascript">
-			$(".footer_content").load("common_html/footer.html");
-			$(".block_video_content").load("common_html/video_block.html");
 
 			function move_div(id) {
 				var items = document.getElementsByClassName('flex-item');

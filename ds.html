@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>大中华区块链官网 - DS孵化器</title>
+		
+		<script src="js/include.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
-		<script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/ds/ds_incubator.css" />
 		<link rel="stylesheet" type="text/css" href="css/ds/ds_dream.css" />
@@ -22,6 +23,7 @@
 		<script src="./js/header.js" type="text/javascript" charset="utf-8"></script>
 		<script src="./js/block.js" type="text/javascript" charset="utf-8"></script>
 		<script src="./js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
 		<style type="text/css">
 			.swiper-banner .swiper-wrapper .swiper-slide img {
 				width: 100%;
@@ -162,8 +164,7 @@
 			<div class="common_content">
 				<!-- 孵化器定位 -->
 				<div id="block_main">
-					<div class="block_video_content">
-					</div>
+					<include src="common_html/video_block.html"></include>
 
 					<div class="incubator" style="width: 643px;height: 100%;">
 						<div id="product_div_title" style="margin: 0;">
@@ -314,11 +315,10 @@
 		</div>
 
 		<div class="footer">
-			<div class="footer_content"></div>
+			<include src="common_html/footer.html"></include>
 		</div>
 
 		<script type="text/javascript">
-			$(".footer_content").load("common_html/footer.html");
 			$(".block_video_content").load("common_html/video_block.html");
 			var swiperBanner = new Swiper('.swiper-banner', {
 				loop: true,

@@ -48,95 +48,6 @@
 }
 
 
-.title1 {
-	text-align: center;
-	line-height: 2.5rem;
-	font-size: 28px;
-	font-family: PingFangSC-Semibold;
-	margin-left: 100px;
-	color: rgba(0, 0, 0, 1);
-	font-weight: 600;
-}
-
-
-
-.title123 {
-	text-align: center;
-	line-height: 2.5rem;
-	font-size: 28px;
-	font-family: PingFangSC-Semibold;
-	margin-left: 124px;
-	color: rgba(0, 0, 0, 1);
-	font-weight: 600;
-	letter-spacing: 24px;
-}
-
-.title123Summary {
-	width: 141px;
-	height: 20px;
-	font-size: 14px;
-	font-family: PingFangSC-Regular;
-	font-weight: 600;
-	color: rgba(0, 0, 0, 1);
-	line-height: 20px;
-	letter-spacing: 5px;
-	margin-left: 105px;
-}
-
-
-.title2summary {
-	width: 266px;
-	height: 20px;
-	font-size: 14px;
-	font-family: PingFangSC-Regular, PingFang SC;
-	font-weight: 600;
-	color: rgba(0, 0, 0, 1);
-	line-height: 20px;
-	letter-spacing: 6px;
-	margin-left: 100px;
-}
-
-
-
-
-
-.title3 {
-	width: 141px;
-	height: 20px;
-	font-size: 14px;
-	font-family: PingFangSC-Regular;
-	font-weight: 600;
-	color: rgba(0, 0, 0, 1);
-	line-height: 20px;
-	letter-spacing: 1px;
-	margin-left: 105px;
-}
-
-
-.title65 {
-	margin-left: 110px;
-	width: 152px;
-	height: 40px;
-	font-size: 28px;
-	font-family: PingFangSC-Semibold;
-	font-weight: 600;
-	color: rgba(0, 0, 0, 1);
-	line-height: 40px;
-	letter-spacing: 10px;
-}
-
-.title66 {
-	width: 141px;
-	height: 20px;
-	font-size: 14px;
-	font-family: PingFangSC-Regular;
-	font-weight: 600;
-	color: rgba(0, 0, 0, 1);
-	line-height: 20px;
-	letter-spacing: 1px;
-	margin-left: 110px;
-}
-
 .title4 {
 	text-align: left;
 	font-size: 16px;
@@ -201,27 +112,6 @@
 	width: 100%;
 }
 
-/* 区块链头部图片布局 */
-.imgDiv {
-	width: 52px;
-	height: 52px;
-}
-
-.imgDiv img {
-	margin-top: 57px;
-	margin-left: 80px;
-}
-
-/* 区块链进程头部图片布局 */
-.processImg {
-	width: 52px;
-	height: 52px;
-}
-
-.processImg img {
-	margin-top: 57px;
-	margin-left: 136px;
-}
 
 /*  合作伙伴图片布局 */
 .partnerImg {

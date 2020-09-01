@@ -1,3 +1,24 @@
+<script type="text/javascript">
+	//鼠标移进去
+	function videoPlayback(img, imgPlayBtn, imgPlayLogo, video) {
+		console.log("hover了")
+		video.play();
+		imgPlayBtn.style.display = "none";
+		imgPlayLogo.style.display = "none";
+		img.style.display = "none";
+	}
+
+	//鼠标离开
+	function videoStopped(video, imgPlayBtn, imgPlayLogo, img) {
+		console.log("hover移出去了")
+		video.pause();
+		imgPlayBtn.style.display = "inline";
+		imgPlayLogo.style.display = "inline";
+		img.style.display = "inline";
+	}
+</script>
+
+
 <div class="block-video">
 	<video onmouseout="videoStopped(this,img_play_logo,img_play_btn,video_poster_img)" loop="loop" muted id="video">
 		<source src="./img/block_video.mp4" type="video/mp4">
@@ -52,20 +73,3 @@
 	}
 </style>
 
-<script type="text/javascript">
-	//鼠标移进去
-	function videoPlayback(img, imgPlayBtn, imgPlayLogo, video) {
-		video.play();
-		imgPlayBtn.style.display = "none";
-		imgPlayLogo.style.display = "none";
-		img.style.display = "none";
-	}
-
-	//鼠标离开
-	function videoStopped(video, imgPlayBtn, imgPlayLogo, img) {
-		video.pause();
-		imgPlayBtn.style.display = "inline";
-		imgPlayLogo.style.display = "inline";
-		img.style.display = "inline";
-	}
-</script>
