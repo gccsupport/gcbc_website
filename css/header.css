@@ -15,20 +15,21 @@
 .header-title-img-logo {
 	width: 170px;
 	height: 46px;
-	margin-left: 280px;
+	margin-left: 10%;
 	margin-top: 16px;
 }
 
 .header-title-options {
 	display: flex;
+	width: 100%;
 }
 
 
 .header-title-ul {
-	width: 680px;
+
 	height: auto;
 	overflow: hidden;
-	margin: 30px 0 0 400px;
+	padding: 30px 0 0 28%;
 }
 
 .header-title-ul-li {
