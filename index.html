@@ -57,7 +57,11 @@
 			<div class="swiper-banner">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="img/banner1.png">
+						<!-- <img src="img/banner1_p4.mp4"> -->
+						<video  loop="loop" muted id="video" autoplay="autoplay">
+							<source src="./img/banner1_p4.mp4" type="video/mp4"></source>
+							当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+						</video>
 					</div>
 					<div class="swiper-slide">
 						<img src="img/banner2.png">
@@ -370,7 +374,7 @@
 			var swiperBanner = new Swiper('.swiper-banner', {
 				loop: true,
 				autoplay: {
-					delay: 3000,
+					delay: 5000,
 					stopOnLastSlide: false,
 					disableOnInteraction: false,
 				},
