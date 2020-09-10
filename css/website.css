@@ -52,26 +52,25 @@
 	text-align: left;
 	font-size: 16px;
 	font-family: PingFangSC-Semibold;
-	margin-left: 10px;
-	line-height: 4px;
+	/* margin-left: 10px; */
+	/* line-height: 4px; */
 	float: left;
-	margin: 18px auto auto 30px;
+	/* margin: 18px auto auto 30px; */
 	color: white;
 	letter-spacing: 8px;
 }
 
 
 .title51 {
-	margin-left: 10px;
-	/* width: 100px; */
-	height: 11px;
+/* 	margin-left: 10px;
+	height: 11px; */
 	font-size: 8px;
-	line-height: 4px;
-	float: left;
+	/* line-height: 4px; */
+	/* float: left; */
 	color: white;
 	font-family: PingFangSC-Semibold;
 	letter-spacing: 1px;
-	margin: 18px 0 0 -86px;
+	/* margin: 18px 0 0 -86px; */
 }
 
 .title5 {
