@@ -33,11 +33,20 @@
 	</head>
 
 	<body>
+		<div id="backTop" style="display: none;">
+			<include src="common_html/back_top.html"></include>
+		</div>
 		<div class="header">
 			<div class="swiper-banner">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="./img/about/banner.png">
+						<div class="swiper-slide">
+							<video loop="loop" muted autoplay="autoplay" style="object-fit: fill;">
+								<source src="./img/banner1_p4.mp4" type="video/mp4">
+								</source>
+								当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+							</video>
+						</div>
 					</div>
 				</div>
 				<!-- Add Pagination -->
@@ -98,9 +107,6 @@
 							<li>日本语</li>
 						</ul>
 					</div>
-
-
-
 				</div>
 			</div>
 			<div class="about_detail">
@@ -203,6 +209,7 @@
 
 		<script type="text/javascript">
 			setScrollBackgroundColorChange(about_title_background);
+			setbackTopHiden(backTop);
 		</script>
 	</body>
 </html>

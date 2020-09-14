@@ -6,7 +6,7 @@
 	width: 1360px;
 	height: 420px;
 	background: rgba(0, 0, 0, 1);
-	border-radius: 12px;
+	border-radius: 22px;
 	background-image: url(../../img/about/ic_vision_background.png);
 	margin: 50px auto;
 	text-align: center;
@@ -23,7 +23,7 @@
 	font-size: 42px;
 	font-family: PingFangSC-Regular;
 	font-weight: 400;
-	color: rgba(255, 255, 255, 1);
+	color: #000000;
 	line-height: 59px;
 	letter-spacing: 3px;
 }
@@ -34,7 +34,7 @@
 	font-size: 24px;
 	font-family: PingFangSC-Medium;
 	font-weight: 500;
-	color: rgba(255, 255, 255, 1);
+	color: #000000;
 	line-height: 33px;
 	letter-spacing: 2px;
 	margin-top: 20px;

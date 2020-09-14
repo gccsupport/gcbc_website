@@ -50,6 +50,9 @@
 	</head>
 
 	<body>
+		<div id="backTop" style="display: none;">
+			<include src="common_html/back_top.html" ></include>
+		</div>
 		<!-- 右侧联系我们 -->
 		<img src="./img/ic_contact.png" class="contact-button">
 
@@ -57,7 +60,6 @@
 			<div class="swiper-banner">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<!-- <img src="img/banner1_p4.mp4"> -->
 						<video loop="loop" muted autoplay="autoplay" style="object-fit: fill;">
 							<source src="./img/banner1_p4.mp4" type="video/mp4">
 							</source>
@@ -391,6 +393,7 @@
 					el: '.swiper-pagination',
 				},
 			});
+			setbackTopHiden(backTop);
 		</script>
 	</body>
 </html>
