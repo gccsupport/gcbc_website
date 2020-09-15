@@ -61,6 +61,16 @@ h1.common_title_not_icon{
 	margin-left: 20px;
 }
 
+.contact-backTopButton {
+		width: 60px;
+		height: 60px;
+		position: fixed;
+		top: 90%;
+		right: 14px;
+		z-index: 4;
+		cursor: pointer;
+}
+
 
 
 

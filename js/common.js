@@ -79,7 +79,7 @@ function setScrollBackgroundColorChange(label,img) {
 }
 
 //   页面动画滚动到顶部.
-function pageScroll() {
+function pageScroll(label,img) {
 	//把内容滚动指定的像素数（第一个参数是向右滚动的像素数，第二个参数是向下滚动的像素数）
 	window.scrollBy(0, -100);
 	//延时递归调用，模拟滚动向上效果
@@ -88,6 +88,12 @@ function pageScroll() {
 	var sTop = document.documentElement.scrollTop + document.body.scrollTop;
 	//判断当页面到达顶部，取消延时代码（否则页面滚动到顶部会无法再向下正常浏览页面）
 	if (sTop == 0) clearTimeout(scrolldelay);
+	if(label!=null){
+		label.style.background = "rgba(0, 0, 0, 0.26)";
+	}
+	if(img!=null){
+		img.style.display = "none";
+	}
 }
 
 
