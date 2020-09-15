@@ -49,20 +49,24 @@ function videoStopped(video, imgPlayBtn, imgPlayLogo, img) {
 }
 
 
-function setScrollBackgroundColorChange(label) {
+function setScrollBackgroundColorChange(label,img) {
 	var scrollFunc = function(e) {
 		e = e || window.event;
 		if (e.wheelDelta) { //第一步：先判断浏览器IE，谷歌滑轮事件 
 			if (document.documentElement.scrollTop >= 500) {
 				label.style.background = "rgba(0, 0, 0, 1)";
+				img.style.display = "inline";
 			} else {
 				label.style.background = "rgba(0, 0, 0, 0.26)";
+				img.style.display = "none";
 			}
 		} else if (e.detail) { //Firefox滑轮事件 
 			if (document.documentElement.scrollTop >= 500) {
 				label.style.background = "rgba(0, 0, 0, 1)";
+				img.style.display = "inline";
 			} else {
 				label.style.background = "rgba(0, 0, 0, 0.26)";
+				img.style.display = "none";
 			}
 		}
 	}
@@ -111,5 +115,4 @@ function setbackTopHiden(img) {
 	}
 	//滚动滑轮触发scrollFunc方法 //ie 谷歌 
 	window.onmousewheel = document.onmousewheel = scrollFunc;
-
 }
