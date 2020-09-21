@@ -193,13 +193,13 @@
 						</div>
 					</div>
 				</div>
-				<div id="product_navigation">
+				<!-- <div id="product_navigation">
 					<img src="img/ic_btn_left.png" class="btn_left">
 					<img src="img/ic_btn_right.png" class="btn_right">
-				</div>
-				<div style="padding-left: 13%;">
-					<div class="swiper-container" style="width: 100%;" >
-						<div class="swiper-wrapper" >
+				</div> -->
+				<div >
+					<div class="swiper-container" style="width: 1400px;">
+						<div class="swiper-wrapper" style="width: 1400px;">
 							<div class="swiper-slide">
 								<img src="./img/product_0.png">
 								<h1>大中华DBchain区块链数据库</h1>
@@ -235,7 +235,11 @@
 									首款极致安全的区块链安卓手机</p>
 							</div>
 						</div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
 					</div>
+					
 				</div>
 			</div>
 			<!-- 大中华区块链 -->
@@ -374,11 +378,11 @@
 			}
 
 			var swiper = new Swiper('.swiper-container', {
-				slidesPerView: 4.82,
+				slidesPerView: 4,
 				spaceBetween: 40,
 				navigation: {
-					nextEl: '.btn_right',
-					prevEl: '.btn_left',
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
 				},
 			});
 
