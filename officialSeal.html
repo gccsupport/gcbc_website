@@ -10,8 +10,10 @@
 		<link rel="stylesheet" type="text/css" href="./css/main.css" />
 		<link rel="stylesheet" type="text/css" href="./css/header.css" />
 		<link rel="stylesheet" type="text/css" href="./lib/css/swiper-bundle.min.css" />
-
 		<!-- Demo styles -->
+		<link rel="stylesheet" type="text/css" href="./css/officialseal.css" />
+		<link rel="stylesheet" type="text/css" href="./css/color.css" />
+		<link rel="stylesheet" type="text/css" href="./css/dimen.css" />
 		<style>
 			html,
 			body {
@@ -25,6 +27,7 @@
 				color: #000;
 				margin: 0;
 				padding: 0;
+				background-color: #0000FF;
 			}
 
 			.swiper-container {
@@ -37,7 +40,6 @@
 			.swiper-slide {
 				text-align: center;
 				font-size: 18px;
-				background: #000;
 				color: #fff;
 				/* Center slide text vertically */
 				display: -webkit-box;
@@ -62,14 +64,73 @@
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
-					<include src="common_html/test1.html"></include>
+					<video loop="loop" muted autoplay="autoplay" style="object-fit: fill; position: absolute; z-index: -1;">
+						<source src="./img/officialseal/officialseal_video%20.mp4" type="video/mp4">
+						</source>
+						当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+					</video>
+					<div class="officialseal_content">
+						<h1 class="officialseal_title">大中华公章系统</h1>
+						<p class="officialseal_title_summary">安全易用，免费无广告，快快使用体验↓↓</p>
+						<div style="margin-top: 50px;">
+							<button class="officialseal_button_blue officialseal_button_text color_font_white" type="button">立即使用</button>
+							<button class="officialseal_button_white officialseal_button_text color_font_black" type="button">演示视频</button>
+						</div>
+						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png">
+					</div>
 				</div>
-				<div class="swiper-slide"><include src="common_html/test1.html"></include></div>
-				<div class="swiper-slide">Slide 3</div>
-				<div class="swiper-slide">Slide 4</div>
-				<div class="swiper-slide">Slide 5</div>
-				<div class="swiper-slide">Slide 6</div>
-				<div class="swiper-slide">Slide 7</div>
+				<div class="swiper-slide color_background_white">
+					<div class="officialseal_content">
+						<h1 class="officialseal_title color_font_black">全链路区块链</h1>
+						<p class="officialseal_title_summary color_font_black">一举一动不可篡改 安全透明杜绝暗箱操作</p>
+						<img style="width: 923px; height: 568px; margin-top: 68px;" src="./img/officialseal/page2_icon.png">
+					</div>
+				</div>
+				<div class="swiper-slide " style="background-image: url(img/officialseal/page3_background.png);">
+					<div class="officialseal_content">
+						<h1 class="officialseal_title">守护企业安全</h1>
+						<p class="officialseal_title_summary">唯一编码 不可篡改 永久存证</p>
+						<div class="officialseal_page3_list">
+							<div class="item">
+								<div class="officialseal_round_background">
+									<img src="img/officialseal/offici_page3_icon_01.png">
+								</div>
+								<h3>区块链哈希码</h3>
+								<p>唯一区块链认证哈希码，让每份合同，每次盖章都有迹可循，杜绝「萝卜章」假章的气焰，成为信誉认证的标志，为企业正名</p>
+							</div>
+							<div class="item">
+								<div class="officialseal_round_background">
+									<img src="img/officialseal/offici_page3_icon_02.png">
+								</div>
+								<h3>不可篡改</h3>
+								<p>去中心化+分布式账本模式，一举一动都在公众眼前，让暗箱操作无所遁形</p>
+							</div>
+							<div class="item">
+								<div class="officialseal_round_background">
+									<img src="img/officialseal/offici_page3_icon_03.png">
+								</div>
+								<h3>永久存证</h3>
+								<p>分布式账本式存证，自我复制数据永不丢失</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background-color: #123456;">
+					<!-- Swiper -->
+					<!-- <div class="swiper-container_page4">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide_page4">Slide 1</div>
+							<div class="swiper-slide_page4">Slide 2</div>
+							<div class="swiper-slide_page4">Slide 3</div>
+						</div> -->
+						<!-- Add Pagination -->
+				<!-- 		<div class="swiper-pagination_page4"></div>
+					</div> -->
+					
+				</div>
+				<div class="swiper-slide" style="background-color: #CCCCCC;">Slide 5</div>
+				<div class="swiper-slide" style="background-color: #FFFFFF;">Slide 6</div>
+				<div class="swiper-slide" style="background-color: #00ff00;">Slide 7</div>
 			</div>
 		</div>
 
@@ -86,6 +147,20 @@
 				pagination: {
 					el: '.swiper-pagination',
 					clickable: true,
+				},
+			});
+			
+			var swiper = new Swiper('.swiper-container_page4', {
+				pagination: {
+					el: '.swiper-pagination_page4',
+					clickable: true,
+					renderBullet: function(index, className) {
+						var tabArray = new Array();
+						tabArray[0] = "无硬件成本";
+						tabArray[1] = "符合公司管理流程";
+						tabArray[2] = "上手快培训成本低";
+						return '<div class="' + className + '">' + (tabArray[index]) + '</div>';
+					},
 				},
 			});
 		</script>
