@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>大中华区块链官网 - 公章系统</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<script src="js/include.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/common.js" type="text/javascript" charset="utf-8"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/website.css" />
+		<link rel="stylesheet" type="text/css" href="css/foot.css" />
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./css/header.css" />
+		<link rel="stylesheet" type="text/css" href="./css/dynamic.css" />
+		<link rel="stylesheet" type="text/css" href="./css/product.css" />
+		<link rel="stylesheet" type="text/css" href="./css/block.css" />
+		<link rel="stylesheet" type="text/css" href="./css/attention.css" />
+		<link rel="stylesheet" type="text/css" href="./lib/css/swiper-bundle.min.css" />
+
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="./lib/css/swiper-bundle.min.css">
+
+		<!-- Demo styles -->
+		<style>
+			html,
+			body {
+				position: relative;
+				height: 100%;
+			}
+
+			body {
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				color: #000;
+				margin: 0;
+				padding: 0;
+			}
+
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #000;
+				color: #fff;
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<include src="common_html/title.html"></include>
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<include src="common_html/test1.html"></include>
+				</div>
+				<div class="swiper-slide"><include src="common_html/test1.html"></include></div>
+				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide">Slide 4</div>
+				<div class="swiper-slide">Slide 5</div>
+				<div class="swiper-slide">Slide 6</div>
+				<div class="swiper-slide">Slide 7</div>
+			</div>
+		</div>
+
+		<!-- Swiper JS -->
+		<script src="./lib/js/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				direction: 'vertical',
+				slidesPerView: 1,
+				spaceBetween: 0,
+				mousewheel: true,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+			});
+		</script>
+	</body>
+</html>
