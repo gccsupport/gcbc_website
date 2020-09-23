@@ -54,15 +54,17 @@
 				-webkit-align-items: center;
 				align-items: center;
 			}
+			
+			
 		</style>
 	</head>
 
 	<body>
 		<include src="common_html/title.html"></include>
 		<!-- Swiper -->
-		<div class="swiper-container">
+		<div class="swiper-container  swiper-container-father">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">
+				<div class="swiper-slide slide1">
 					<video loop="loop" muted autoplay="autoplay" style="object-fit: fill; position: absolute; z-index: -1;">
 						<source src="./img/officialseal/officialseal_video%20.mp4" type="video/mp4">
 						</source>
@@ -78,14 +80,14 @@
 						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png">
 					</div>
 				</div>
-				<div class="swiper-slide color_background_white">
+				<div class="swiper-slide slide2 color_background_white">
 					<div class="officialseal_content">
 						<h1 class="officialseal_title color_font_black">全链路区块链</h1>
 						<p class="officialseal_title_summary color_font_black">一举一动不可篡改 安全透明杜绝暗箱操作</p>
 						<img style="width: 923px; height: 568px; margin-top: 68px;" src="./img/officialseal/page2_icon.png">
 					</div>
 				</div>
-				<div class="swiper-slide " style="background-image: url(img/officialseal/page3_background.png);">
+				<div class="swiper-slide slide3" style="background-image: url(img/officialseal/page3_background.png);">
 					<div class="officialseal_content">
 						<h1 class="officialseal_title">守护企业安全</h1>
 						<p class="officialseal_title_summary">唯一编码 不可篡改 永久存证</p>
@@ -114,74 +116,87 @@
 						</div>
 					</div>
 				</div>
-				<div class="swiper-slide" style="background-color: #FFFFFF;">
-					<div class="officialseal_content">
-						<h1 class="officialseal_title color_font_black">全平台同步，无限畅游</h1>
-						<p class="page4_1_summary">无论您使用的是Windows、MacOS、国产系统、只需登陆官方账号即可轻松一键授权，时时查阅，进程跟踪，扫码立查，接力互动；打造真正的全平台同步，实现多屏切换。</p>
-						<div class="page4_1_icon_conetnt">
-							<div class="page4_1_icon_div">
-								<img src="img/officialseal/offici_page_4_1_1.png">
-								<p>Windows</p>
+				<div class="swiper-slide slide4" style="background-color: #FFFFFF;">
+					<div class="swiper-container swiper-container-son">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="officialseal_content">
+									<h1 class="officialseal_title color_font_black" style="margin-top: -50px;">全平台同步，无限畅游</h1>
+									<p class="page4_1_summary">无论您使用的是Windows、MacOS、国产系统、只需登陆官方账号即可轻松一键授权，时时查阅，进程跟踪，扫码立查，接力互动；打造真正的全平台同步，实现多屏切换。</p>
+									<div class="page4_1_icon_conetnt">
+										<div class="page4_1_icon_div">
+											<img src="img/officialseal/offici_page_4_1_1.png">
+											<p>Windows</p>
+										</div>
+										<div class="page4_1_icon_div">
+											<img src="img/officialseal/offici_page_4_1_2.png">
+											<p>Macos</p>
+										</div>
+										<div class="page4_1_icon_div">
+											<img src="img/officialseal/offici_page_4_1_3.png">
+											<p>Linux</p>
+										</div>
+									</div>
+									<div class="page4_1_img_div">
+										<img src="img/officialseal/page4_1_book.png">
+										<img src="img/officialseal/page4_1_ipad.png">
+									</div>
+								</div>
 							</div>
-							<div class="page4_1_icon_div">
-								<img src="img/officialseal/offici_page_4_1_2.png">
-								<p>Macos</p>
+							<div class="swiper-slide">
+								<div class="officialseal_content">
+									<h1 class="officialseal_title color_font_black">专业管理流程</h1>
+									<p class="page4_1_summary">针对各种公司的业务流程提供专业解决方案，做到「 高效率，0影响，全方位接入 」</p>
+									<div class="page4_2_img_content">
+										<div>
+											<img src="img/officialseal/page4_2_1.png">
+											<p>政府机构</p>
+										</div>
+										<div>
+											<img src="img/officialseal/page4_2_2.png">
+											<p>工程机构</p>
+										</div>
+										<div>
+											<img src="img/officialseal/page4_2_3.png">
+											<p>地产机构</p>
+										</div>
+										<div>
+											<img src="img/officialseal/page4_2_4.png">
+											<p>制造机构</p>
+										</div>
+										<div>
+											<img src="img/officialseal/page4_2_5.png">
+											<p>文化机构</p>
+										</div>
+										<div>
+											<img src="img/officialseal/page4_2_6.png">
+											<p>其他机构</p>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="page4_1_icon_div">
-								<img src="img/officialseal/offici_page_4_1_3.png">
-								<p>Linux</p>
+							<div class="swiper-slide">
+								<div class="officialseal_content">
+									<h1 class="officialseal_title color_font_black" style="margin-top: -30px;">简化流程，让办公快人一步</h1>
+									<p class="page4_1_summary">针对办公系统专业优化，「 一键授权，时时查阅，进程跟踪，扫码立查，接力互动 」</p>
+									<div class="page4_3_img_content">
+										<img src="img/officialseal/officialseql_page1_icon.png">
+										<img class="phone" src="img/officialseal/page4_3_phone.png">
+										<img src="img/officialseal/page4_3_img_backgroud.png">
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="page4_1_img_div">
-							<img src="img/officialseal/page4_1_book.png">
-							<img src="img/officialseal/page4_1_ipad.png">
-						</div>
+						<div class="swiper-pagination"></div>
 					</div>
 				</div>
-				<div class="swiper-slide" style="background-color: #FFFFFF;">
-					<div class="officialseal_content">
-						<h1 class="officialseal_title color_font_black">专业管理流程</h1>
-						<p class="page4_1_summary">针对各种公司的业务流程提供专业解决方案，做到「 高效率，0影响，全方位接入 」</p>
-						<div class="page4_2_img_content">
-							<div>
-								<img src="img/officialseal/page4_2_1.png" >
-								<p>政府机构</p>
-							</div>
-							<div>
-								<img src="img/officialseal/page4_2_2.png" >
-								<p>工程机构</p>
-							</div>
-							<div>
-								<img src="img/officialseal/page4_2_3.png" >
-								<p>地产机构</p>
-							</div>
-							<div>
-								<img src="img/officialseal/page4_2_4.png" >
-								<p>制造机构</p>
-							</div>
-							<div>
-								<img src="img/officialseal/page4_2_5.png" >
-								<p>文化机构</p>
-							</div>
-							<div>
-								<img src="img/officialseal/page4_2_6.png" >
-								<p>其他机构</p>
-							</div>
-						</div>
-					</div>
+				<div class="swiper-slide slide5" style="background-color: #ff0000;">
+
 				</div>
-				<div class="swiper-slide" style="background-color: #FFFFFF;">
-					<div class="officialseal_content">
-						<h1 class="officialseal_title color_font_black">简化流程，让办公快人一步</h1>
-						<p class="page4_1_summary">针对办公系统专业优化，「 一键授权，时时查阅，进程跟踪，扫码立查，接力互动 」</p>
-						<div class="page4_3_img_content">
-							<img src="img/officialseal/officialseql_page1_icon.png" >
-							<img class="phone" src="img/officialseal/page4_3_phone.png" >
-							<img src="img/officialseal/page4_3_img_backgroud.png" >
-						</div>
-					</div>
+				<div class="swiper-slide slide6" style="background-color: #FFFFFF;">
+
 				</div>
-				<div class="swiper-slide" style="background-color: #00ff00;">Slide 7</div>
+				<div class="swiper-slide slide7" style="background-color: #00ff00;">Slide 7</div>
 			</div>
 		</div>
 
@@ -190,20 +205,30 @@
 
 		<!-- Initialize Swiper -->
 		<script>
-			var swiper = new Swiper('.swiper-container', {
-				direction: 'vertical',
-				slidesPerView: 1,
-				spaceBetween: 0,
-				mousewheel: true,
+			var swiperIndex = sessionStorage.getItem('swiperIndex') ? sessionStorage.getItem('swiperIndex') : 0,
+				initSwiper = {
+					direction: 'vertical',
+					on: {
+						slideChangeTransitionEnd: function() {
+							if (this.realIndex == 0) {
+								root_header_title.style.background = "rgba(0, 0, 0, 0)";
+							}else if(this.realIndex == 1){
+								root_header_title.style.background = "rgba(0, 0, 0, 1)";
+							}
+						}
+					},
+					// initialSlide: swiperIndex,
+					// prevButton: '.pre-page-btn',
+					// nextButton: '.next-page-btn',
+					// 切换页面成功之前的回调
+					onSlideChangeStart: function(swiper) {
+						sessionStorage.setItem('swiperIndex', swiper.activeIndex);
+					}
+				};
+			var swiperFather = new Swiper('.swiper-container-father', initSwiper);
+			var swiperSon = new Swiper('.swiper-container-son', {
 				pagination: {
 					el: '.swiper-pagination',
-					clickable: true,
-				},
-			});
-
-			var swiper = new Swiper('.swiper-container_page4', {
-				pagination: {
-					el: '.swiper-pagination_page4',
 					clickable: true,
 					renderBullet: function(index, className) {
 						var tabArray = new Array();
