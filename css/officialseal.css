@@ -45,9 +45,13 @@
 }
 
 .swiper-slide div .img_computer {
-	width: 1079px;
+	width: auto;
 	height: 558px;
-	margin-top: 60px;
+	position: absolute;
+	bottom: -100px;
+	left: 50%;
+	transform: translate(-50%);
+	transition: height .2s,width .2s;
 }
 
 .officialseal_round_background {

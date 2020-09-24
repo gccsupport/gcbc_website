@@ -77,7 +77,7 @@
 							<button class="officialseal_button_blue officialseal_button_text color_font_white" type="button">立即使用</button>
 							<button class="officialseal_button_white officialseal_button_text color_font_black" type="button">演示视频</button>
 						</div>
-						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png">
+						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png" id="id_img_compputer">
 					</div>
 				</div>
 				<div class="swiper-slide slide2 color_background_white">
@@ -205,6 +205,10 @@
 
 		<!-- Initialize Swiper -->
 		<script>
+			var offset = 485;
+			var computerHeight = id_img_compputer.height;
+			var computerOffset = computerHeight - 300;
+
 			var swiperIndex = sessionStorage.getItem('swiperIndex') ? sessionStorage.getItem('swiperIndex') : 0,
 				initSwiper = {
 					direction: 'vertical',
@@ -212,15 +216,20 @@
 						slideChangeTransitionEnd: function() {
 							if (this.realIndex == 0) {
 								root_header_title.style.background = "rgba(0, 0, 0, 0)";
-							}else if(this.realIndex == 1){
+							} else if (this.realIndex == 1) {
 								root_header_title.style.background = "rgba(0, 0, 0, 1)";
 							}
-						}
+						},
+						setTranslate: function(swiper, translate) {
+							var absTranslate = Math.abs(translate);
+							if (absTranslate < offset) {
+								var scale = absTranslate / offset;
+								var resultHeight = computerHeight - computerOffset * scale;
+								id_img_compputer.style.height = resultHeight + "px";
+							}
+						},
+
 					},
-					// initialSlide: swiperIndex,
-					// prevButton: '.pre-page-btn',
-					// nextButton: '.next-page-btn',
-					// 切换页面成功之前的回调
 					onSlideChangeStart: function(swiper) {
 						sessionStorage.setItem('swiperIndex', swiper.activeIndex);
 					}
