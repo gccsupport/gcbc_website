@@ -81,36 +81,36 @@
 							<button class="officialseal_button_blue officialseal_button_text color_font_white" type="button">立即使用</button>
 							<button class="officialseal_button_white officialseal_button_text color_font_black" type="button">演示视频</button>
 						</div>
-						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png">
+						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png" id="id_img_compputer">
 					</div>
 				</div>
 				<div class="swiper-slide slide2 color_background_white">
-					<div class="officialseal_content">
+					<div class="officialseal_content" id="id_page2">
 						<h1 class="officialseal_title color_font_black">全链路区块链</h1>
 						<p class="officialseal_title_summary color_font_black">一举一动不可篡改 安全透明杜绝暗箱操作</p>
-						<img style="width: 923px; height: 568px; margin-top: 68px;" src="./img/officialseal/page2_icon.png">
+						<img class="img_block" src="./img/officialseal/page2_icon.png" id="id_img_block">
 					</div>
 				</div>
 				<div class="swiper-slide slide3" style="background-image: url(img/officialseal/page3_background.png);">
-					<div class="officialseal_content">
+					<div class="officialseal_content" id="id_page3">
 						<h1 class="officialseal_title">守护企业安全</h1>
 						<p class="officialseal_title_summary">唯一编码 不可篡改 永久存证</p>
 						<div class="officialseal_page3_list">
-							<div class="item">
+							<div class="item" id="item1">
 								<div class="officialseal_round_background">
 									<img src="img/officialseal/offici_page3_icon_01.png">
 								</div>
 								<h3>区块链哈希码</h3>
 								<p>唯一区块链认证哈希码，让每份合同，每次盖章都有迹可循，杜绝「萝卜章」假章的气焰，成为信誉认证的标志，为企业正名</p>
 							</div>
-							<div class="item">
+							<div class="item" id="item2">
 								<div class="officialseal_round_background">
 									<img src="img/officialseal/offici_page3_icon_02.png">
 								</div>
 								<h3>不可篡改</h3>
 								<p>去中心化+分布式账本模式，一举一动都在公众眼前，让暗箱操作无所遁形</p>
 							</div>
-							<div class="item">
+							<div class="item" id="item3">
 								<div class="officialseal_round_background">
 									<img src="img/officialseal/offici_page3_icon_03.png">
 								</div>
@@ -124,7 +124,7 @@
 					<div class="swiper-container swiper-container-son">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
-								<div class="officialseal_content">
+								<div class="officialseal_content" id="id_page4">
 									<h1 class="officialseal_title color_font_black" style="margin-top: -50px;">全平台同步，无限畅游</h1>
 									<p class="page4_1_summary">无论您使用的是Windows、MacOS、国产系统、只需登陆官方账号即可轻松一键授权，时时查阅，进程跟踪，扫码立查，接力互动；打造真正的全平台同步，实现多屏切换。</p>
 									<div class="page4_1_icon_conetnt">
@@ -143,7 +143,7 @@
 									</div>
 									<div class="page4_1_img_div">
 										<img src="img/officialseal/page4_1_book.png">
-										<img src="img/officialseal/page4_1_ipad.png">
+										<img src="img/officialseal/page4_1_ipad.png" id="img_computer_ipad">
 									</div>
 								</div>
 							</div>
@@ -153,26 +153,32 @@
 									<p class="page4_1_summary">针对各种公司的业务流程提供专业解决方案，做到「 高效率，0影响，全方位接入 」</p>
 									<div class="page4_2_img_content">
 										<div>
+											<div class="div_test"></div>
 											<img src="img/officialseal/page4_2_1.png">
 											<p>政府机构</p>
 										</div>
 										<div>
+											<div class="div_test"></div>
 											<img src="img/officialseal/page4_2_2.png">
 											<p>工程机构</p>
 										</div>
 										<div>
+											<div class="div_test"></div>
 											<img src="img/officialseal/page4_2_3.png">
 											<p>地产机构</p>
 										</div>
 										<div>
+											<div class="div_test"></div>
 											<img src="img/officialseal/page4_2_4.png">
 											<p>制造机构</p>
 										</div>
 										<div>
+											<div class="div_test"></div>
 											<img src="img/officialseal/page4_2_5.png">
 											<p>文化机构</p>
 										</div>
 										<div>
+											<div class="div_test"></div>
 											<img src="img/officialseal/page4_2_6.png">
 											<p>其他机构</p>
 										</div>
@@ -333,15 +339,23 @@
 
 		<!-- Swiper JS -->
 		<script src="./lib/js/swiper-bundle.min.js"></script>
-
 		<script src="./js/lottie.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="./data.json"></script>
-
 		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
 
 		<!-- Initialize Swiper -->
 		<script>
+			var offset = 485;
+			var computerHeight = id_img_compputer.height;
+			var computerOffset = computerHeight - 300;
+
+			var blockTop = id_img_block.style.marginTop;
+
+			var offsetArray = new Array();
+			offsetArray[0] = offset * 1;
+			offsetArray[1] = offset * 2;
+			offsetArray[2] = offset * 3;
+			offsetArray[3] = offset * 4;
 			var swiperIndex = sessionStorage.getItem('swiperIndex') ? sessionStorage.getItem('swiperIndex') : 0,
 				initSwiper = {
 					direction: 'vertical',
@@ -352,12 +366,51 @@
 							} else if (this.realIndex == 1) {
 								root_header_title.style.background = "rgba(0, 0, 0, 1)";
 							}
-						}
+						},
+						setTranslate: function(swiper, translate) {
+							var absTranslate = Math.abs(translate);
+							var scale = absTranslate / offset;
+
+							console.log(scale);
+
+							if (scale < 0.5) {
+								var resultHeight = computerHeight - computerOffset * scale;
+								id_img_compputer.style.height = resultHeight + "px";
+
+								id_img_block.style.marginTop = "128px";
+								id_page2.style.opacity = ".3";
+							}
+							if (scale > 1.0) {
+								id_img_block.style.marginTop = "68px";
+								id_page2.style.opacity = "1";
+							}
+							if (scale < 3.0) {
+								item1.style.marginTop = "100px";
+								item2.style.marginTop = "100px";
+								item3.style.marginTop = "100px";
+								id_page3.style.opacity = ".3";
+							}
+
+							if (scale > 3.0) {
+								item1.style.marginTop = "0px";
+								id_page3.style.opacity = "1";
+							}
+							if (scale > 3.3) {
+								item2.style.marginTop = "0px";
+							}
+							if (scale > 3.5) {
+								item3.style.marginTop = "0px";
+							}
+							if (scale > 5) {
+								img_computer_ipad.style.left = "50%";
+								id_page4.style.opacity = "1";
+							} else {
+								img_computer_ipad.style.left = "60%";
+								id_page4.style.opacity = ".3";
+							}
+						},
+
 					},
-					// initialSlide: swiperIndex,
-					// prevButton: '.pre-page-btn',
-					// nextButton: '.next-page-btn',
-					// 切换页面成功之前的回调
 					onSlideChangeStart: function(swiper) {
 						sessionStorage.setItem('swiperIndex', swiper.activeIndex);
 					}

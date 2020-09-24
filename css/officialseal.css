@@ -51,7 +51,14 @@
 	bottom: -100px;
 	left: 50%;
 	transform: translate(-50%);
-	transition: height .2s,width .2s;
+	transition: height .2s, width .2s;
+}
+
+.swiper-slide .officialseal_content .img_block {
+	width: 923px;
+	height: 568px;
+	margin-top: 128px;
+	transition: margin-top .8s;
 }
 
 .officialseal_round_background {
@@ -79,7 +86,10 @@
 	margin-top: 112px;
 }
 
-.officialseal_page3_list .item {}
+.officialseal_page3_list .item {
+	margin-top: 200px;
+	transition: margin-top .5s;
+}
 
 .officialseal_page3_list .item>h3 {
 	width: 100%;
@@ -251,14 +261,44 @@
 	width: 456px;
 	height: 314px;
 	position: absolute;
-	left: 50%;
+	left: 60%;
 	bottom: 0;
+	transition: left .5s;
+}
+
+#id_page2{
+	opacity: .3;
+	transition:  opacity 1s;
+}
+
+#id_page3{
+	opacity: .3;
+	transition:  opacity 1s;
+}
+
+#id_page4{
+	opacity: .3;
+	transition:  opacity 1s;
 }
 
 .swiper-slide .page4_2_img_content {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 80px;
+}
+
+.swiper-slide .page4_2_img_content>div>div {
+	width: 180px;
+	height: 300px;
+	position: absolute;
+	z-index: 2;
+	border-radius: 10px;
+	background-color: #000000;
+	opacity: .4;
+}
+
+.swiper-slide .page4_2_img_content>div>div:hover {
+	opacity: 0;
 }
 
 .swiper-slide .page4_2_img_content>div>img {
