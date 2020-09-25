@@ -51,7 +51,7 @@
 	bottom: -100px;
 	left: 50%;
 	transform: translate(-50%);
-	transition: height .2s, width .2s;
+	/* transition: height .2s, width .2s; */
 }
 
 .swiper-slide .officialseal_content .img_block {

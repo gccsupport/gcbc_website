@@ -351,14 +351,10 @@
 
 			var blockTop = id_img_block.style.marginTop;
 
-			var offsetArray = new Array();
-			offsetArray[0] = offset * 1;
-			offsetArray[1] = offset * 2;
-			offsetArray[2] = offset * 3;
-			offsetArray[3] = offset * 4;
 			var swiperIndex = sessionStorage.getItem('swiperIndex') ? sessionStorage.getItem('swiperIndex') : 0,
 				initSwiper = {
 					direction: 'vertical',
+					mousewheel: true,
 					on: {
 						slideChangeTransitionEnd: function() {
 							if (this.realIndex == 0) {
