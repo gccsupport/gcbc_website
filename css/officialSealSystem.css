@@ -7,7 +7,7 @@ body {
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	margin-top: 20%;
+	margin-top:5%;
 }
 
 .system_main .system_titleDiv {
@@ -29,7 +29,7 @@ body {
 	flex-wrap: wrap;
 
 	margin: 0 auto;
-	padding-top: 10%;
+	padding-top: 5%;
 	font-family: PingFangSC-Semibold, PingFang SC;
 	font-weight: 600;
 	color: #FFFFFF;
