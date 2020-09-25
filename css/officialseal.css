@@ -151,7 +151,7 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 	opacity: 1;
-	margin: 0px 0px;
+	margin: 0px 0px 20px 0px;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
@@ -161,7 +161,7 @@
 	color: #FFFFFF;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	margin: 0px 0px;
+	margin: 0px 0px 20px 0px;
 }
 
 .swiper-pagination {
@@ -220,6 +220,7 @@
 	line-height: 36px;
 	letter-spacing: 1px;
 	margin-top: 10px;
+	margin: 0 auto;
 }
 
 .swiper-slide .page4_1_icon_div {}
