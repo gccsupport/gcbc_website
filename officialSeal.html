@@ -79,9 +79,18 @@
 						<p class="officialseal_title_summary">安全易用，免费无广告，快快使用体验↓↓</p>
 						<div style="margin-top: 50px;">
 							<button class="officialseal_button_blue officialseal_button_text color_font_white" type="button">立即使用</button>
-							<button class="officialseal_button_white officialseal_button_text color_font_black" type="button">演示视频</button>
+							<button class="officialseal_button_white officialseal_button_text color_font_black" type="button" onclick="playVideo()">演示视频</button>
 						</div>
 						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png" id="id_img_compputer">
+					</div>
+					<div class="introduction swiper-no-swiping" onclick="stopVideo()">
+						<div>
+						</div>
+						<video id="introductionVideo" controls>
+							<source src="./img/officialseal/officialseal_video%20.mp4" type="video/mp4">
+							</source>
+							当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+						</video>
 					</div>
 				</div>
 				<div class="swiper-slide slide2 color_background_white">
@@ -202,13 +211,13 @@
 				</div>
 				<div class="swiper-slide slide5" style="background-color: #FFF;	position: relative;">
 					<div class="mainDiv">
-						<div class="officialseal_title color_font_black" >智慧解决方案</div>
+						<div class="officialseal_title color_font_black">智慧解决方案</div>
 						<div class="page4_1_summary">
 							大中华区块链科技历经2年，研发“大中华区块链公章”，
 							运用自主开发联盟链关系数据库底层，创造性的将“物理章+电子章”完全“链化”，在国家机关公证后，
 							企业公章及电子签名同时上链，全节点通报，彻底解决公章被盗、被抢、被私刻、被乱盖等企业管理难题。
 						</div>
-						
+
 						<div class="swiper-container" id="main">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide swiper-slide1">
@@ -469,6 +478,18 @@
 					swiper.slideTo(num, 500, false);
 				});
 			});
+
+			var introduction = document.getElementsByClassName("introduction")[0];
+
+			function playVideo() {
+				introduction.style.display = "block";
+				introductionVideo.play();
+			}
+
+			function stopVideo() {
+				introduction.style.display = "none";
+				introductionVideo.stop();
+			}
 		</script>
 	</body>
 </html>

@@ -1,3 +1,29 @@
+.introduction {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+}
+
+.introduction>div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000000;
+	opacity: .8;
+}
+
+.introduction>video {
+	object-fit: fill;
+	position: absolute;
+	z-index: 5;
+	width: 900px;
+	height: 562px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .officialseal_title {
 	font-size: 78px;
 	font-family: PingFangSC-Semibold;
@@ -267,19 +293,19 @@
 	transition: left .5s;
 }
 
-#id_page2{
+#id_page2 {
 	opacity: .3;
-	transition:  opacity 1s;
+	transition: opacity 1s;
 }
 
-#id_page3{
+#id_page3 {
 	opacity: .3;
-	transition:  opacity 1s;
+	transition: opacity 1s;
 }
 
-#id_page4{
+#id_page4 {
 	opacity: .3;
-	transition:  opacity 1s;
+	transition: opacity 1s;
 }
 
 .swiper-slide .page4_2_img_content {
