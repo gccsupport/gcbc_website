@@ -4,20 +4,28 @@
 	.mainDiv .officialseal_title {
 		font-size: 3.625rem;
 		margin-top: 3.125rem;
-		line-height: 3.75rem;
+		line-height: 5rem;
 	}
 
-	.swiper-slide .page4_1_summary {
+	.mainDiv .smallTitle{
 		font-size: 1rem;
-		width: 75rem;
-		margin-top: 20px;
+		height: 5rem;
 	}
 
 	#main {
 		margin-top: 0rem;
 		height: 400px;
 	}
-
+	
+	#nav{
+		height: 2.125rem;
+	}
+	
+	#nav .sub-item{
+		margin-top: 10px;
+		line-height: 1.8125rem;
+	}
+	
 	.swiper-container .swiper-wrapper {
 		margin-top: 0rem;
 		height: 400px;
