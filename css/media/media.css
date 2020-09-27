@@ -1,38 +1,58 @@
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1538px) {
-				/* 大标题尺寸: 78px -> 58px */
-				.mainDiv .officialseal_title{
-					font-size: 3.625rem;
-					margin-top: 3.125rem;
-					line-height: 3.75rem;   
-				}
-				.swiper-slide .page4_1_summary{
-					font-size: 1rem;
-				}
-				#main{
-					margin-top: 0rem;
-				}
-				.swiper-container .swiper-wrapper{
-					margin-top: 0rem;
-				}
-				.system_main .system_titleDiv .officialseal_title {
-					font-size: 3.75rem !important;
-					margin-top: 0 !important;
-				}
-				.system_main .system_titleDiv .officialseal_title_summary{
-					margin-top: 0;
-					font-size: 1.25rem;
-				}
-				.system_main .buttonDiv{
-					margin-top: 2.75rem;
-				}
-				.footer{
-					margin-top: 0px;
-					height: 21.125rem;
-				}
-				.footer .footer-main{
-					padding: 0px 0 0 20px;
-				}
-			}
+
+	/* 大标题尺寸: 78px -> 58px */
+	.mainDiv .officialseal_title {
+		font-size: 3.625rem;
+		margin-top: 3.125rem;
+		line-height: 3.75rem;
+	}
+
+	.swiper-slide .page4_1_summary {
+		font-size: 1rem;
+		width: 75rem;
+		margin-top: 20px;
+	}
+
+	#main {
+		margin-top: 0rem;
+		height: 400px;
+	}
+
+	.swiper-container .swiper-wrapper {
+		margin-top: 0rem;
+		height: 400px;
+	}
+	
+	.swiper-container .swiper-wrapper .swiper-slide1{
+		width: 695px;
+		height: 400px;
+		margin-top: 10px;
+	}
+	
+	.system_main .system_titleDiv .officialseal_title {
+		font-size: 3.75rem !important;
+		margin-top: 0 !important;
+	}
+
+	.system_main .system_titleDiv .officialseal_title_summary {
+		margin-top: 0;
+		font-size: 1.25rem;
+	}
+
+	.system_main .buttonDiv {
+		margin-top: 2.75rem;
+	}
+
+	
+	.footer {
+		margin-top: 0px;
+		height: 21.125rem;
+	}
+
+	.footer .footer-main {
+		padding: 0px 0 0 20px;
+	}
+}
 
 /* 判断ipad
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {}
@@ -97,7 +117,4 @@
 // screen Width = 640px (实际像素)
 // screen Height = 960px (实际像素)
 // Device-pixel-ratio:2
- */
-
-// mac
-
+*/ // mac
