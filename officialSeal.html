@@ -16,7 +16,6 @@
 		<link rel="stylesheet" type="text/css" href="./css/officialseal.css" />
 		<link rel="stylesheet" type="text/css" href="./css/media/officialseal.css" />
 		<link rel="stylesheet" type="text/css" href="./css/color.css" />
-		<link rel="stylesheet" type="text/css" href="./css/dimen.css" />
 
 		<link rel="stylesheet" type="text/css" href="./css/officialSealSystem.css" />
 		<link rel="stylesheet" type="text/css" href="./css/scheme.css" />
@@ -71,7 +70,7 @@
 							<button class="officialseal_button_blue officialseal_button_text color_font_white" type="button">立即使用</button>
 							<button class="officialseal_button_white officialseal_button_text color_font_black" type="button" onclick="playVideo()">演示视频</button>
 						</div>
-						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png" id="id_img_compputer">
+						<img class="img_computer" src="./img/officialseal/officialseql_page1_icon.png" id="id_img_compputer" onclick="playVideo()">
 					</div>
 					<div class="introduction swiper-no-swiping" onclick="stopVideo()">
 						<div>
@@ -324,7 +323,7 @@
 							</div>
 						</div>
 						<!-- 公章系统 按钮 -->
-	<!-- 					<div class="buttonDiv">
+						<!-- 					<div class="buttonDiv">
 							<button type="button" style="background-color: #0A6DFF; color: white;">
 								立即使用
 							</button>
@@ -393,8 +392,6 @@
 							var absTranslate = Math.abs(translate);
 							var scale = absTranslate / offset;
 
-							console.log(scale);
-
 							if (scale < scaleAnimaArray[0]) {
 								var resultHeight = computerHeight - computerOffset * scale;
 								id_img_compputer.style.height = resultHeight + "px";
@@ -403,9 +400,9 @@
 								id_page2.style.opacity = ".3";
 							}
 							if (scale > scaleAnimaArray[1]) {
-								if(isBigScreen){
+								if (isBigScreen) {
 									id_img_block.style.marginTop = "68px";
-								}else{
+								} else {
 									id_img_block.style.marginTop = "50px";
 								}
 								id_page2.style.opacity = "1";
@@ -504,7 +501,8 @@
 
 			function stopVideo() {
 				introduction.style.display = "none";
-				introductionVideo.stop();
+				introductionVideo.pause();
+				introductionVideo.currentTime = 0;
 			}
 		</script>
 	</body>
