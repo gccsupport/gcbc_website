@@ -3,7 +3,7 @@
 	.officialseal_content {
 		width: 1000px;
 		height: 100%;
-		padding-top: 320px;
+		padding-top: 280px;
 	}
 
 	.introduction>video {
@@ -22,6 +22,10 @@
 		line-height: 36px;
 		letter-spacing: 4px;
 		margin-top: 10px;
+	}
+	
+	.officialseal_button_div{
+		margin-top: 20px;
 	}
 
 	.officialseal_button_blue {
