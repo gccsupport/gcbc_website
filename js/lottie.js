@@ -2092,7 +2092,7 @@
 									var i = "";
 									if (t.e) i = t.p;
 									else if (e) {
-										var s = t.p; - 1 !== s.indexOf("images/") && (s = s.split("/")[1]), i = e + s
+										var s = t.p; - 1 !== s.indexOf("officialseal/") && (s = s.split("/")[1]), i = e + s
 									} else i = r, i += t.u ? t.u : "", i += t.p;
 									return i
 								}(t, this.assetsPath, this.path),
@@ -5511,7 +5511,7 @@
 					var e = "";
 					if (t.e) e = t.p;
 					else if (this.assetsPath) {
-						var r = t.p; - 1 !== r.indexOf("images/") && (r = r.split("/")[1]), e = this.assetsPath + r
+						var r = t.p; - 1 !== r.indexOf("officialseal/") && (r = r.split("/")[1]), e = this.assetsPath + r
 					} else e = this.path, e += t.u ? t.u : "", e += t.p;
 					return e
 				}, AnimationItem.prototype.getAssetData = function(t) {
