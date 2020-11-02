@@ -24,27 +24,27 @@
 }
 
 #move1 {
-	background-image: url(http://qh39wbjlh.hn-bkt.clouddn.com/flex1.png);
+	background-image: url(http://web.gcigb.com/flex1.png);
 }
 
 #move2 {
-	background-image: url(http://qh39wbjlh.hn-bkt.clouddn.com/flex2.png);
+	background-image: url(http://web.gcigb.com/flex2.png);
 }
 
 #move3 {
-	background-image: url(http://qh39wbjlh.hn-bkt.clouddn.com/flex3.png);
+	background-image: url(http://web.gcigb.com/flex3.png);
 }
 
 #move1.active {
-	background-image: url(http://qh39wbjlh.hn-bkt.clouddn.com/flex1_hover.png);
+	background-image: url(http://web.gcigb.com/flex1_hover.png);
 }
 
 #move2.active {
-	background-image: url(http://qh39wbjlh.hn-bkt.clouddn.com/flex2_hover.png);
+	background-image: url(http://web.gcigb.com/flex2_hover.png);
 }
 
 #move3.active {
-	background-image: url(http://qh39wbjlh.hn-bkt.clouddn.com/flex3_hover.png);
+	background-image: url(http://web.gcigb.com/flex3_hover.png);
 }
 
 
